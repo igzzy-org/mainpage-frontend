@@ -1,3 +1,10 @@
-footer{
+.footer{
     grid-area: 'footer';
+}
+
+.copyright{
+    margin-top: 75px;
+    padding: 30px;
+    color: white;
+    @include font_footer;
 }

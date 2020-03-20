@@ -1,5 +1,5 @@
 $main_font: 'News701 BT', sans-serif;
-$second_font: 'Dancing Script', cursive;
+$second_font: 'Philosopher', cursive;
 
 @mixin font_header_title{
   font-family: $main_font;
@@ -20,10 +20,39 @@ $second_font: 'Dancing Script', cursive;
   text-align: center;
 }
 
-@mixin font_main_text{
-  font-family: $main_font;
-  font-size: 1.8rem;
+@mixin font_main_subtitle{
+  font-family: $second_font;
+  font-size: 2rem;
   line-height: 3rem;
   text-align: center;
   font-style: italic;
+}
+
+@mixin font_main_module_title{
+  font-family: $main_font;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+}
+
+@mixin font_main_module_text{
+  font-family: $second_font;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-style: italic;
+}
+
+@mixin font_main_module_button{
+  font-family: $main_font;
+  font-size: 0.8rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+@mixin font_footer{
+  font-family: $second_font;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-style: italic;
+  text-align: center;
 }

@@ -401,7 +401,7 @@ a {
     align-self: center;
     justify-self: center; }
   .header_description {
-    font-family: "Dancing Script", cursive;
+    font-family: "Philosopher", cursive;
     font-size: 2rem;
     color: #B31279;
     align-self: center;
@@ -412,7 +412,7 @@ a {
 
 .page-404_header {
   justify-self: center;
-  margin-bottom: 45px; }
+  margin-bottom: 75px; }
   .page-404_header_title {
     font-family: "News701 BT", sans-serif;
     font-size: 2.5rem;
@@ -432,8 +432,8 @@ a {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   .page-404_header_text {
-    font-family: "News701 BT", sans-serif;
-    font-size: 1.8rem;
+    font-family: "Philosopher", cursive;
+    font-size: 2rem;
     line-height: 3rem;
     text-align: center;
     font-style: italic;
@@ -453,18 +453,14 @@ a {
   display: flex;
   justify-content: space-around; }
   .page-404_modules > * {
-    display: flex;
     flex: 1 0 250px;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid: "header" 40% "text" 60%;
+    padding: 0 30px;
     height: 450px;
     background: #28282a;
     color: white;
     position: relative; }
-    .page-404_modules > * p {
-      z-index: 200; }
-    .page-404_modules > *:hover {
-      cursor: pointer; }
     .page-404_modules > *:before {
       content: '';
       position: absolute;
@@ -484,39 +480,86 @@ a {
       /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
       filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$lighten', endColorstr='$darken',GradientType=1 );
       /* IE6-9 fallback on horizontal gradient */ }
-  .page-404_modules_instagram img {
-    content: '';
+  .page-404_modules_header {
+    z-index: 200;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+    align-self: end;
+    font-family: "News701 BT", sans-serif;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    text-align: center; }
+  .page-404_modules_text {
+    z-index: 200;
+    font-family: "Philosopher", cursive;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    font-style: italic; }
+    .page-404_modules_text strong {
+      text-transform: uppercase; }
+  .page-404_modules_image {
     position: absolute;
     top: 100px;
     right: 15px;
     width: 200px;
     height: 200px;
-    background: url("../images/instagram.svg") no-repeat center center;
-    background-size: cover;
     transition: .3s; }
-  .page-404_modules_instagram:hover img {
+  .page-404_modules_instagram:hover .page-404_modules_instagram_image, .page-404_modules_portfolio:hover .page-404_modules_instagram_image, .page-404_modules_instagram:hover .page-404_modules_portfolio_image, .page-404_modules_portfolio:hover .page-404_modules_portfolio_image {
     top: 25px;
     transition: .3s; }
-  .page-404_modules_facebook {
-    margin: 0 15px 0 30px; }
-    .page-404_modules_facebook img {
-      content: '';
-      position: absolute;
-      top: 100px;
-      right: 15px;
-      width: 200px;
-      height: 200px;
-      background: url("../images/facebook.svg") no-repeat center center;
-      background-size: cover;
-      transition: .3s; }
-    .page-404_modules_facebook:hover img {
+  .page-404_modules_instagram:hover .page-404_modules_instagram_button, .page-404_modules_portfolio:hover .page-404_modules_instagram_button, .page-404_modules_instagram:hover .page-404_modules_portfolio_button, .page-404_modules_portfolio:hover .page-404_modules_portfolio_button {
+    bottom: 15px;
+    opacity: 1;
+    transition: .3s; }
+  .page-404_modules_facebook, .page-404_modules_who-we-are {
+    margin: 0 20px 0 40px; }
+    .page-404_modules_facebook:hover .page-404_modules_facebook_image, .page-404_modules_who-we-are:hover .page-404_modules_facebook_image, .page-404_modules_facebook:hover .page-404_modules_who-we-are_image, .page-404_modules_who-we-are:hover .page-404_modules_who-we-are_image {
       top: 25px;
       transition: .3s; }
-  .page-404_modules div:nth-child(3) {
-    margin: 0 30px 0 15px; }
+    .page-404_modules_facebook:hover .page-404_modules_facebook_button, .page-404_modules_who-we-are:hover .page-404_modules_facebook_button, .page-404_modules_facebook:hover .page-404_modules_who-we-are_button, .page-404_modules_who-we-are:hover .page-404_modules_who-we-are_button {
+      bottom: 15px;
+      opacity: 1;
+      transition: .3s; }
+  .page-404_modules_who-we-are {
+    margin: 0 40px 0 20px; }
+    .page-404_modules_who-we-are:hover .page-404_modules_who-we-are_image {
+      top: 25px;
+      transition: .3s; }
+    .page-404_modules_who-we-are:hover .page-404_modules_who-we-are_button {
+      bottom: 15px;
+      opacity: 1;
+      transition: .3s; }
+  .page-404_modules_button {
+    position: absolute;
+    bottom: 50px;
+    opacity: 0;
+    left: 30px;
+    background-color: white;
+    display: block;
+    padding: 10px 20px;
+    width: 80px;
+    font-family: "News701 BT", sans-serif;
+    font-size: 0.8rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #28282a;
+    transition: .3s;
+    z-index: 200; }
+    .page-404_modules_button:hover {
+      cursor: pointer; }
 
-footer {
+.footer {
   grid-area: 'footer'; }
+
+.copyright {
+  margin-top: 75px;
+  padding: 30px;
+  color: white;
+  font-family: "Philosopher", cursive;
+  font-size: 1rem;
+  line-height: 1.5rem;
+  font-style: italic;
+  text-align: center; }
 
 .js .anime-left {
   opacity: 0;
