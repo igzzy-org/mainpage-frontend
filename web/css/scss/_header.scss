@@ -1,10 +1,13 @@
 .header{
   grid-area: 'header';
-  @include grid-2;
+  @include grid-1;
   padding: 25px 300px;
   margin-bottom: 30px;
   &_logo{
-    grid-row: span 2;
+    @include cell_phone{
+      width: 85vw;
+      margin: 0 auto;
+    }
   }
   &_title{
     @include font_header_title;
@@ -20,5 +23,8 @@
     color: $first_color;
     align-self: center;
     justify-self: center;
+  }
+  @include cell_phone{
+    padding: 15px 0;
   }
 }

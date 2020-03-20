@@ -9,18 +9,12 @@
       "footer"
       / 1fr
       ;
+  @include cell_phone{
+    max-width: 100vw;
+  }
 }
 
 @mixin grid-1{
   display: grid;
-}
-
-@mixin grid-2{
-  display: grid;
   grid-template-columns: minmax(200px,1fr);
-}
-
-@mixin grid-3{
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
 }
