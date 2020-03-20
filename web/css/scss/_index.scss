@@ -1,0 +1,92 @@
+.main_index{
+  grid-area: 'content';
+}
+
+.page-404{
+  &_header{
+    justify-self: center;
+    margin-bottom: 45px;
+    &_title{
+      @include font_main_title;
+      @include linear_gradient($first_color);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+    }
+    &_text{
+      @include font_main_text;
+      @include linear_gradient($second_color);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent; 
+    }
+  }
+  &_modules{
+    display: flex;
+    justify-content: space-around;
+    & > *{
+      display: flex;
+      flex: 1 0 250px;
+      justify-content: center;
+      align-items: center;
+      height: 450px;
+      background: $background_color;
+      color: white;
+      position: relative;
+      & p{
+        z-index: 200;
+      }
+      &:hover{
+        cursor: pointer;
+      }
+      &:before{
+        content: '';
+        position: absolute;
+        top: -2px;
+        bottom: -2px;
+        left: -2px;
+        right: -2px;
+        transform: skew(2deg, 2deg);
+        z-index: -1;
+        @include fallback_horizontal_gradient($second_color);
+      }
+    }
+    &_instagram{
+      img{
+        content: '';
+        position: absolute;
+        top: 100px;
+        right: 15px;
+        width: 200px;
+        height: 200px;
+        background: url("../images/instagram.svg") no-repeat center center;
+        background-size: cover;
+        transition: .3s;
+      }
+      &:hover img{
+        top: 25px;
+        transition: .3s;
+      }
+    }
+    &_facebook{
+      margin: 0 15px 0 30px;
+      img{
+        content: '';
+        position: absolute;
+        top: 100px;
+        right: 15px;
+        width: 200px;
+        height: 200px;
+        background: url("../images/facebook.svg") no-repeat center center;
+        background-size: cover;
+        transition: .3s;
+      }
+      &:hover img{
+        top: 25px;
+        transition: .3s;
+      }
+    }
+    & div:nth-child(3){
+      margin: 0 30px 0 15px;
+    }
+  }
+}
+

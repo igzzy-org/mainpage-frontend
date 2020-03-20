@@ -1,0 +1,29 @@
+$main_font: 'News701 BT', sans-serif;
+$second_font: 'Dancing Script', cursive;
+
+@mixin font_header_title{
+  font-family: $main_font;
+  font-size: 5rem;
+  text-transform: uppercase;
+}
+
+@mixin font_header_subtitle{
+  font-family: $second_font;
+  font-size: 2rem;
+}
+
+@mixin font_main_title{
+  font-family: $main_font;
+  font-size: 2.5rem;
+  line-height: 4rem;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+@mixin font_main_text{
+  font-family: $main_font;
+  font-size: 1.8rem;
+  line-height: 3rem;
+  text-align: center;
+  font-style: italic;
+}

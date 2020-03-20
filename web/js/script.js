@@ -1,0 +1,9 @@
+import initAnimateScroll from "./modules/animateScroll.js";
+import initAnimateMenu from "./modules/animateMenu.js";
+import initMobileMenu from "./modules/mobileMenu.js";
+
+initAnimateScroll();
+window.onload = initAnimateMenu;
+initMobileMenu();
+
+

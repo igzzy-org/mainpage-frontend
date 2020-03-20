@@ -1,0 +1,24 @@
+.header{
+  grid-area: 'header';
+  @include grid-2;
+  padding: 25px 300px;
+  margin-bottom: 30px;
+  &_logo{
+    grid-row: span 2;
+  }
+  &_title{
+    @include font_header_title;
+    padding: 10px;
+    @include twocolors_linear_gradient($second_color, $first_color);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    align-self: center;
+    justify-self: center;
+  }
+  &_description{
+    @include font_header_subtitle;
+    color: $first_color;
+    align-self: center;
+    justify-self: center;
+  }
+}
