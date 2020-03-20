@@ -546,7 +546,9 @@ a {
     transition: .3s;
     z-index: 200; }
     .page-404_modules_button:hover {
-      cursor: pointer; }
+      cursor: pointer;
+      background-color: #540080;
+      color: white; }
 
 .footer {
   grid-area: 'footer'; }

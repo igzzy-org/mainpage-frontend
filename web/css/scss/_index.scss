@@ -117,6 +117,8 @@
       z-index: 200;
       &:hover{
         cursor: pointer;
+        background-color: $third_color;
+        color: white;
       }
     }
   }
