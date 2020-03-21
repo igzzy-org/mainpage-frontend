@@ -16,6 +16,14 @@ $white: #fff;
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$lighten', endColorstr='$darken',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
+@mixin twocolors_fallback_horizontal_gradient($color_one, $color_two){
+  background: $color_one; /* Old browsers */
+  background: -moz-linear-gradient(-45deg,  $color_one 0%, $color_two 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg,  $color_one 0%, $color_two 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg,  $color_one 0%, $color_two 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color_one', endColorstr='$color_two',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+
 @mixin linear_gradient($color){
   $lighten: lighten($color: $color, $amount: 40);
   $darken: darken($color: $color, $amount: 10);

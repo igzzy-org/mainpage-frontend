@@ -1,25 +1,21 @@
-.main_index{
+.main__index{
   grid-area: 'content';
 }
 
 .page-404{
-  &_header{
+  &__header{
     justify-self: center;
     margin-bottom: 75px;
     @include cell_phone{
       margin-bottom: 45px;
     }
-    &_title{
+    &__title{
       @include font_main_title;
-      @include linear_gradient($first_color);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; 
+      @include font_linear_gradient_text_color($first_color);
     }
-    &_text{
+    &__text{
       @include font_main_subtitle;
-      @include linear_gradient($second_color);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent; 
+      @include font_linear_gradient_text_color($second_color);
     }
     &:after{
       @include cell_phone{
@@ -33,7 +29,7 @@
       }
     }
   }
-  &_modules{
+  &__modules{
     display: flex;
     justify-content: space-around;
     @include cell_phone{
@@ -72,21 +68,21 @@
         @include fallback_horizontal_gradient($second_color);
       }
     }
-    &_header{
+    &__header{
       z-index: 200;
       margin-bottom: 15px;
       text-transform: uppercase;
       align-self: end;
       @include font_main_module_title;
     }
-    &_text{
+    &__text{
       z-index: 200;
       @include font_main_module_text;
       & strong{
         text-transform: uppercase;
       }
     }
-    &_image{
+    &__image{
       position: absolute;
       top: 100px;
       right: 15px;
@@ -98,42 +94,42 @@
         height: 100px;
       }
     }
-    &_instagram, &_portfolio{
-      &:hover &_image{
+    &__instagram, &__portfolio{
+      &:hover &__image{
         top: 25px;
         transition: .3s;
       }
-      &:hover &_button{
+      &:hover &__button{
         bottom: 15px;
         opacity: 1;
         transition: .3s;
       }
     }
-    &_facebook, &_who-we-are{
+    &__facebook, &__who-we-are{
       margin: 0 20px 0 40px;
-      &:hover &_image{
+      &:hover &__image{
         top: 25px;
         transition: .3s;
       }
-      &:hover &_button{
+      &:hover &__button{
         bottom: 15px;
         opacity: 1;
         transition: .3s;
       }
     }
-    &_who-we-are{
+    &__who-we-are{
       margin: 0 40px 0 20px;
-      &:hover &_image{
+      &:hover &__image{
         top: 25px;
         transition: .3s;
       }
-      &:hover &_button{
+      &:hover &__button{
         bottom: 15px;
         opacity: 1;
         transition: .3s;
       }
     }
-    &_button{
+    &__button{
       position: absolute;
       bottom: 50px;
       opacity: 0;
