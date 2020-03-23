@@ -6,6 +6,7 @@ export default function initAsideMenu() {
 
   asideButton.addEventListener('click', () => {
     aside.classList.toggle('active');
+    asideButton.classList.toggle('active');
   }
   )
 }

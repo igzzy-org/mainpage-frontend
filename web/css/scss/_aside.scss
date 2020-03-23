@@ -6,36 +6,26 @@
   width: 0;
   height: 100vh;
   transition: .3s;
-  @include cell_phone{
-    left: auto;
-    right: 0;
-  }
   &__button{
-    > div{
-      border: solid 3px;
-      border-radius: 10px;
-      padding: 5px;
-      width: 25px;
-      background-color: black;
-      div{
-        width: 25px;
-        margin: 0;
-        margin-bottom: 5px;
-        height: 5px;
-        background: $second_color;
-        transition: 0.5s;
-      }
-    }
-    width: 50px;
+    border: solid 3px;
+    padding: 5px;
+    width: 25px;
     height: 100vh;
+    background-color: black;
     position: absolute;
-    right: -50px;
-    top: 0;
+    left: 0px;
+    top: 0px;
+    transition: .3s;
     cursor: pointer;
     @include cell_phone{
-      right: auto;
+      position: fixed;
       top: 15px;
-      left: -75px;
+      left: unset;
+      right: 25px;
+      z-index: 2000;
+      width: 25px;
+      height: 30px; 
+      border-radius: 10px;
     }
   }
   &__nav{
@@ -79,18 +69,17 @@
   &.active{
     width: 20%;
     transition: .3s;
+    visibility: visible;
     @include cell_phone{
-      width: 75%;
+      width: 100%;
     }
   }
   &.active &__nav{
     opacity: 1;
     transition: .5s;
   }
-  &.active &__button>div{
-    @include cell_phone{
-      right: -50px;
-      transition: .3s;
-    }
+  &.active &__button{
+    left: 20vw;
+    transition: .3s;
   }
 }
