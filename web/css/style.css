@@ -484,7 +484,8 @@ a {
   /* IE6-9 fallback on horizontal gradient */
   width: 0;
   height: 100vh;
-  transition: .3s; }
+  transition: .3s;
+  z-index: 200; }
   .aside__nav {
     opacity: 0;
     margin: 15px; }
@@ -551,11 +552,18 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  transform: translate3d(-140px, 0, 0); }
+  transform: translate3d(-140px, 0, 0);
+  z-index: 200; }
   @media (max-width: 768px) {
     .aside__button {
       display: none; } }
   .aside__button.active {
+    transform: translate3d(0, 0, 0);
+    transition: .3s; }
+  .aside__button:hover {
+    transform: translate3d(-130px, 0, 0);
+    transition: .3s; }
+  .aside__button:hover.active {
     transform: translate3d(0, 0, 0);
     transition: .3s; }
   .aside__button--grid {
@@ -728,6 +736,54 @@ a {
       background: url("../images/facebook-yellow.svg") no-repeat center center;
       background-size: cover;
       cursor: default; }
+
+.aside__sumario {
+  background: #B31279;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #B31279 0%, #540080 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #B31279 0%, #540080 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #B31279 0%, #540080 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color_one', endColorstr='$color_two',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  z-index: 20;
+  cursor: pointer;
+  transform: translate3d(-100px, 0, 0);
+  transition: .3s; }
+  @media (max-width: 768px) {
+    .aside__sumario {
+      display: none; } }
+  .aside__sumario.active {
+    transform: translate3d(0, 0, 0);
+    transition: .3s; }
+  .aside__sumario:hover {
+    transform: translate3d(-90px, 0, 0);
+    transition: .3s; }
+  .aside__sumario:hover.active {
+    transform: translate3d(0, 0, 0);
+    transition: .3s; }
+  .aside__sumario__header__title {
+    font-family: "Philosopher", cursive;
+    font-size: 2rem;
+    line-height: 3rem;
+    text-align: center;
+    font-style: italic;
+    color: white;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 50vh;
+    right: -35px; }
+    @media (max-width: 768px) {
+      .aside__sumario__header__title {
+        font-size: 1rem;
+        line-height: 1.5rem; } }
 
 .main__index {
   grid-area: 'content'; }

@@ -5,7 +5,7 @@ export default function initAsideMenu() {
   const mainMenu = new Dom('[data-aside="main-menu"]').element();
   const mobileMenu = new Dom('[data-aside="menu-mobile"]').element();
   const menuSandwich = new Dom('[data-aside="menu-sandwich"]').element();
-  const html = document.documentElement;
+  const menuSumario = new Dom('[data-aside="sumario"]').element();
 
   menuSandwich.addEventListener('click', () => {
     mobileMenu.classList.toggle('active');
@@ -17,6 +17,14 @@ export default function initAsideMenu() {
     mainMenu.classList.toggle('active');
     outsideClick(mainMenu, ['click'], () => {
       mainMenu.classList.remove('active');
+    })
+  })
+
+  menuSumario.addEventListener('click', event => {
+    event.preventDefault();
+    menuSumario.classList.toggle('active');
+    outsideClick(menuSumario, ['click'], () => {
+      menuSumario.classList.remove('active');
     })
   })
 }

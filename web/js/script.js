@@ -2,6 +2,7 @@
 // import initAnimateMenu from "./modules/animateMenu.js";
 // import initMobileMenu from "./modules/mobileMenu.js";
 import initAsideMenu from "./modules/asideMenu.js";
+import initPortfolio from "./modules/portfolio.js";
 
 // initAnimateScroll();
 // window.onload = initAnimateMenu;
@@ -9,4 +10,4 @@ import initAsideMenu from "./modules/asideMenu.js";
 
 const myPage = window.location.pathname.split("/").pop();
 if (myPage != "index.html") initAsideMenu();
-
+if (myPage === "portfolio.html") initPortfolio();

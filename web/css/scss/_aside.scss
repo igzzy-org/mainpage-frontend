@@ -6,6 +6,7 @@
   width: 0;
   height: 100vh;
   transition: .3s;
+  z-index: 200;
   &__nav{
     opacity: 0;
     margin: 15px;
@@ -70,10 +71,19 @@
   flex-direction: column;
   justify-content: space-between;
   transform: translate3d(-140px, 0, 0);
+  z-index: 200;
   @include cell_phone{
     display: none;
   }
   &.active{
+    transform: translate3d(0, 0, 0);
+    transition: .3s;
+  }
+  &:hover{
+    transform: translate3d(-130px, 0, 0);
+    transition: .3s;
+  }
+  &:hover.active{
     transform: translate3d(0, 0, 0);
     transition: .3s;
   }
@@ -281,6 +291,44 @@
         background-size: cover;
         cursor: default;
       }
+    }
+  }
+}
+
+.aside__sumario{
+  @include twocolors_fallback_horizontal_gradient($first_color, $third_color);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200px;
+  height: 100vh;
+  z-index: 20;
+  cursor: pointer;
+  transform: translate3d(-100px, 0, 0);
+  transition: .3s;
+  @include cell_phone{
+    display: none;
+  }
+  &.active{
+    transform: translate3d(0, 0, 0);
+    transition: .3s;
+  }
+  &:hover{
+    transform: translate3d(-90px, 0, 0);
+    transition: .3s;
+  }
+  &:hover.active{
+    transform: translate3d(0, 0, 0);
+    transition: .3s;
+  }
+  &__header{
+    &__title{
+      @include font_main_subtitle();
+      color: white;
+      transform: rotate(-90deg);
+      position: absolute;
+      top: 50vh;
+      right: -35px;
     }
   }
 }
