@@ -2,6 +2,19 @@
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  @include cell_phone{
+    background-color: black;
+    position: fixed;
+    border: solid 3px;
+    padding: 5px; 
+    top: 15px;
+    left: unset;
+    right: 25px;
+    z-index: 2000;
+    width: 25px;
+    height: 30px; 
+    border-radius: 10px;
+  }
   &__line{
     display: none;
     @include cell_phone{
@@ -17,256 +30,18 @@
     &--one{
       transform: rotateZ(-45deg);
       position: relative;
-      top: 12.5px;
+      top: 10px;
       transition: transform .3s ease-out;
     }
     &--three{
       transform: rotatez(45deg);
       position: relative;
-      top: -12.5px;
+      top: -10px;
       transition: transform .3s ease-out;
     }
     &--two{
       opacity: 0;
       transition: opacity .3s ease-out;
-    }
-  }
-}
-
-.aside__button{
-  width: 200px;
-  height: 100vh;
-  background-color: black;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  transition: .3s;
-  cursor: pointer;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  transform: translate3d(-140px, 0, 0);
-  @include cell_phone{
-    position: fixed;
-    border: solid 3px;
-    padding: 5px; 
-    top: 15px;
-    left: unset;
-    right: 25px;
-    z-index: 2000;
-    width: 25px;
-    height: 30px; 
-    border-radius: 10px;
-    transform: translate3d(0, 0, 0);
-  }
-  &.active{
-    transform: translate3d(0, 0, 0);
-    transition: .3s;
-  }
-  &--grid{
-    display: grid;
-    grid-template-columns: 140px 40px;
-    justify-content: center;
-    align-items: center;
-  }
-  &__up{
-    margin-top: 30px;
-    @include cell_phone{
-      display: none;
-    }
-  }
-  &__down{
-    margin-bottom: 30px;
-    @include cell_phone{
-      display: none;
-    }
-  }
-  &__top{
-    width: 100%;
-    &__item{
-      &--img{
-        height: 40px;
-        width: 40px;
-        margin-right: 5px;
-        @include cell_phone{
-          display: none;
-        }
-      }
-      &--text{
-        @include font_main_text;
-        color: white;
-        padding: 5px;
-        &:before{
-          content: '•';
-          margin-right: 5px;
-          transition: .3s;
-        }
-        &.active{
-          color: $second_color;
-        }
-        &:hover.active {
-          cursor: default;
-        }
-      }
-    }
-    &__home{
-      margin-bottom: 10px;
-      &--img{
-        background: url("../images/igzzy-svg-white.svg") no-repeat center center;
-        background-size: cover;
-        transition: .3s;
-      }
-      &:hover &--img{
-        background: url("../images/igzzy-svg-pink.svg") no-repeat center center;
-        background-size: cover;
-        transition: .3s;
-      }
-      &:hover &--text:before{
-        content: '×';
-        margin-right: 5px;
-        margin-left: 2.5px;
-        transition: .3s;
-      }
-      &:hover &--text{
-        color: $first_color;
-      }
-      &--img.active{
-        background: url("../images/igzzy-svg-yellow.svg") no-repeat center center;
-        background-size: cover;
-        cursor: default;
-      }
-    }
-    &__who-we-are{
-      margin-bottom: 10px;
-      &--img{
-        background: url("../images/who-we-are-white.svg") no-repeat center center;
-        background-size: cover;
-        transition: .3s;
-      }
-      &:hover &--img{
-        background: url("../images/who-we-are-pink.svg") no-repeat center center;
-        background-size: cover;
-        transition: .3s;
-      }
-      &:hover &--text:before{
-        content: '×';
-        margin-right: 5px;
-        margin-left: 2.5px;
-        transition: .3s;
-      }
-      &:hover &--text{
-        color: $first_color;
-      }
-      &--img.active{
-        background: url("../images/who-we-are-yellow.svg") no-repeat center center;
-        background-size: cover;
-        cursor: default;
-      }
-    }
-    &__portfolio{
-      &--img{
-        background: url("../images/portfolio-white.svg") no-repeat center center;
-        background-size: cover;
-        transition: .3s;
-      }
-      &:hover &--img{
-        background: url("../images/portfolio-pink.svg") no-repeat center center;
-        background-size: cover;
-        transition: .3s;
-      }
-      &:hover &--text:before{
-        content: '×';
-        margin-right: 5px;
-        margin-left: 2.5px;
-        transition: .3s;
-      }
-      &:hover &--text{
-        color: $first_color;
-      }
-      &--img.active{
-        background: url("../images/portfolio-yellow.svg") no-repeat center center;
-        background-size: cover;
-        cursor: default;
-      }
-    }
-  }
-  &__bottom{
-    width: 100%;
-    &__item{
-      &--img{
-        height: 40px;
-        width: 40px;
-        margin-right: 5px;
-        @include cell_phone{
-          display: none;
-        }
-      }
-      &--text{
-        @include font_main_text;
-        color: white;
-        padding: 5px;
-        &:before{
-          content: '•';
-          margin-right: 5px;
-          transition: .3s;
-        }
-        &.active{
-          color: $second_color;
-        }
-      }
-    }
-    &__instagram{
-      margin-bottom: 10px;
-      &--img{
-        background: url("../images/instagram-white.svg") no-repeat center center;
-        background-size: cover;
-        transition: .3s;
-      }
-      &:hover &--img{
-        background: url("../images/instagram-pink.svg") no-repeat center center;
-        background-size: cover;
-        transition: .3s;
-      }
-      &:hover &--text:before{
-        content: '×';
-        margin-right: 5px;
-        margin-left: 2.5px;
-        transition: .3s;
-      }
-      &:hover &--text{
-        color: $first_color;
-      }
-      &--img.active{
-        background: url("../images/instagram-yellow.svg") no-repeat center center;
-        background-size: cover;
-        cursor: default;
-      }
-    }
-    &__facebook{
-      &--img{
-        background: url("../images/facebook-white.svg") no-repeat center center;
-        background-size: cover;
-        transition: .3s;
-      }
-      &:hover &--img{
-        background: url("../images/facebook-pink.svg") no-repeat center center;
-        background-size: cover;
-        transition: .3s;
-      }
-      &:hover &--text:before{
-        content: '×';
-        margin-right: 5px;
-        margin-left: 2.5px;
-        transition: .3s;
-      }
-      &:hover &--text{
-        color: $first_color;
-      }
-      &--img.active{
-        background: url("../images/facebook-yellow.svg") no-repeat center center;
-        background-size: cover;
-        cursor: default;
-      }
     }
   }
 }
