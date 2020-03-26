@@ -13,5 +13,5 @@ const myPage = window.location.pathname.split("/").pop();
 if (myPage != "index.html") initAsideMenu();
 if (myPage === "portfolio.html") {
   initPortfolio();
-  initAnimateGrowthItem();
+  window.onload = initAnimateGrowthItem;
 }

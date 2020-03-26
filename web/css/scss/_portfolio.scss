@@ -2,10 +2,15 @@
   grid-area: "content";
   @include grid-4;
   gap: 30px;
+  @include cell_phone{
+    @include grid-1;
+    padding: 75px;
+  }
   &__item{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    height: 350px;
+    grid-template-rows: [row1-start] 4fr [row1-end row2-start] 1fr [row2-end];
+    // justify-content: center;
     background: white;
     position: relative;
     padding: 15px;
@@ -27,8 +32,13 @@
       transition: .3s;
     }
     &__img{
-      padding: 30px;
-      max-height: 200px;
+      align-self: center;
+      max-height: 230px;
+    }
+    &__content{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
     }
     &__header{
       &__title{
@@ -46,11 +56,11 @@
     }
     &__description{
       @include font_main_module_text();
-      margin-bottom: 10px;
     }
     &__last-line{
       display: flex;
       justify-content: space-between;
+      align-items: center;
     }
     &__price{
       @include font_main_module_price();
@@ -63,6 +73,10 @@
       transition: .3s;
       transform: translate3d(0, -20px, 0);
       opacity: 0;
+      @include cell_phone{
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+      }
       &:hover{
         background: $third_color;
         transition: .3s;
@@ -73,14 +87,15 @@
       opacity: 1;
       transition: .3s;
     }
-    &.active{
-      position: relative;
-      width: 1280px;
-      flex-direction: row;
-      justify-content: space-between;
-    }
-    &__content.active{
-      width: 100%;
-    }
+    // &.active{
+    //   position: relative;
+    //   left: 0;
+    //   width: 1280px;
+    //   flex-direction: row;
+    //   justify-content: space-between;
+    // }
+    // &__content.active{
+    //   width: 100%;
+    // }
   }
 }

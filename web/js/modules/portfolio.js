@@ -1,22 +1,28 @@
-import readJSON from "./readJSON.js";
-
 export default function initPortfolio() {
-  function lidandoComJSON(content) {
-    content.forEach(member => {
-      console.log(member);
+  const main = document.querySelector('[data-item="main"]');
+
+  fetch('./canecas-json.json')
+    .then(r => r.json())
+    .then(json => {
+      json.forEach(item => {
+        main.appendChild(createContainer(item));
+      })
     })
-  }
 
-  function readJSON(documentName) {
-    const request = new XMLHttpRequest();
-    request.open("GET", documentName, true);
-    request.responseType = 'json';
-    request.send();
-    request.onload = () => {
-      const content = request.response;
-      lidandoComJSON(content);
-    }
+  function createContainer(item) {
+    const container = document.createRange().createContextualFragment(`<section class="main__portfolio__item" data-item="item">
+    <img class="main__portfolio__item__img" src="images/produtos/canecas/${item['Referência'].trim()}.png" alt="">
+    <div class="main__portfolio__item__content" data-item="content">
+      <header class="main__portfolio__item__header">
+        <h2 class="main__portfolio__item__header__title">${item["Item"]}</h2>
+      </header>
+      <p class="main__portfolio__item__description">Caneca Comum Branca</p>
+      <div class="main__portfolio__item__last-line">
+        <p class="main__portfolio__item__price">${item["Valor médio do item"]}</p>
+        <a class="main__portfolio__item__button" href="" data-item="button">Veja Mais</a>
+      </div>
+    </div>
+  </section>`);
+    return container;
   }
-
-  readJSON("canecas-json.json");
 }

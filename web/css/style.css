@@ -1030,10 +1030,15 @@ a {
   display: grid;
   grid-template-columns: repeat(4, [col-start] minmax(200px, 1fr) [col-end]);
   gap: 30px; }
+  @media (max-width: 768px) {
+    .main__portfolio {
+      display: grid;
+      grid-template-columns: minmax(200px, 1fr);
+      padding: 75px; } }
   .main__portfolio__item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    display: grid;
+    height: 350px;
+    grid-template-rows: [row1-start] 4fr [row1-end row2-start] 1fr [row2-end];
     background: white;
     position: relative;
     padding: 15px;
@@ -1053,8 +1058,12 @@ a {
       background: #EDCF18;
       transition: .3s; }
     .main__portfolio__item__img {
-      padding: 30px;
-      max-height: 200px; }
+      align-self: center;
+      max-height: 230px; }
+    .main__portfolio__item__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between; }
     .main__portfolio__item__header__title {
       font-family: "News701 BT", sans-serif;
       font-size: 1.3rem;
@@ -1075,15 +1084,15 @@ a {
       font-family: "Philosopher", cursive;
       font-size: 1rem;
       line-height: 1.5rem;
-      font-style: italic;
-      margin-bottom: 10px; }
+      font-style: italic; }
       @media (max-width: 768px) {
         .main__portfolio__item__description {
           font-size: 0.8rem;
           line-height: 1.5rem; } }
     .main__portfolio__item__last-line {
       display: flex;
-      justify-content: space-between; }
+      justify-content: space-between;
+      align-items: center; }
     .main__portfolio__item__price {
       font-family: "News701 BT", sans-serif;
       font-size: 1.3rem; }
@@ -1102,6 +1111,10 @@ a {
       transition: .3s;
       transform: translate3d(0, -20px, 0);
       opacity: 0; }
+      @media (max-width: 768px) {
+        .main__portfolio__item__button {
+          transform: translate3d(0, 0, 0);
+          opacity: 1; } }
       .main__portfolio__item__button:hover {
         background: #540080;
         transition: .3s; }
@@ -1109,13 +1122,6 @@ a {
       transform: translate3d(0, 0, 0);
       opacity: 1;
       transition: .3s; }
-    .main__portfolio__item.active {
-      position: relative;
-      width: 1280px;
-      flex-direction: row;
-      justify-content: space-between; }
-    .main__portfolio__item__content.active {
-      width: 100%; }
 
 .footer {
   grid-area: 'footer'; }

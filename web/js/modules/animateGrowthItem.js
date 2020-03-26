@@ -5,6 +5,8 @@ export default function initAnimatePortfolioGrowthItem() {
   const itemContainer = new Dom('[data-item="item"').listElements();
   const itemContent = new Dom('[data-item="content"]').listElements();
 
+  console.log(itemButton);
+
   itemButton.forEach((item, pos) => {
     item.addEventListener('click', event => {
       event.preventDefault();
