@@ -19,5 +19,4 @@ export default function initPortfolio() {
   }
 
   readJSON("canecas-json.json");
-
 }

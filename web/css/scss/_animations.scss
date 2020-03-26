@@ -85,7 +85,6 @@
   transform: scale(1);
   transition: 0.2s transform;
   &:hover{
-    // animation: 0.2s growth normal forwards;
     transform: scale(1.01);
     transition: 0.2s transform;
   }

@@ -1,5 +1,9 @@
 .aside{
-  position: absolute;
+  display: none;
+  @include cell_phone{
+    display: block;
+  }
+  position: fixed;
   left: 0;
   top: 0;
   @include twocolors_fallback_horizontal_gradient($first_color, $third_color);
@@ -62,7 +66,7 @@
   width: 200px;
   height: 100vh;
   background-color: black;
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
   transition: .3s;
@@ -297,7 +301,7 @@
 
 .aside__sumario{
   @include twocolors_fallback_horizontal_gradient($first_color, $third_color);
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 200px;

@@ -469,7 +469,8 @@ a {
       padding: 15px 0; } }
 
 .aside {
-  position: absolute;
+  display: none;
+  position: fixed;
   left: 0;
   top: 0;
   background: #B31279;
@@ -486,6 +487,9 @@ a {
   height: 100vh;
   transition: .3s;
   z-index: 200; }
+  @media (max-width: 768px) {
+    .aside {
+      display: block; } }
   .aside__nav {
     opacity: 0;
     margin: 15px; }
@@ -544,7 +548,7 @@ a {
   width: 200px;
   height: 100vh;
   background-color: black;
-  position: absolute;
+  position: fixed;
   left: 0px;
   top: 0px;
   transition: .3s;
@@ -748,7 +752,7 @@ a {
   /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$color_one', endColorstr='$color_two',GradientType=1 );
   /* IE6-9 fallback on horizontal gradient */
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 200px;
@@ -1020,6 +1024,98 @@ a {
     .who-we-are__content__text {
       font-size: 1rem;
       line-height: 1.5rem; } }
+
+.main__portfolio {
+  grid-area: "content";
+  display: grid;
+  grid-template-columns: repeat(4, [col-start] minmax(200px, 1fr) [col-end]);
+  gap: 30px; }
+  .main__portfolio__item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    position: relative;
+    padding: 15px;
+    transition: .3s; }
+    .main__portfolio__item:hover:before {
+      background: #B31279;
+      transition: .3s; }
+    .main__portfolio__item:before {
+      content: '';
+      position: absolute;
+      top: -2px;
+      bottom: -2px;
+      left: -2px;
+      right: -2px;
+      transform: skew(2deg, 2deg);
+      z-index: -1;
+      background: #EDCF18;
+      transition: .3s; }
+    .main__portfolio__item__img {
+      padding: 30px;
+      max-height: 200px; }
+    .main__portfolio__item__header__title {
+      font-family: "News701 BT", sans-serif;
+      font-size: 1.3rem;
+      text-align: center;
+      margin-bottom: 10px; }
+      @media (max-width: 768px) {
+        .main__portfolio__item__header__title {
+          font-size: 1rem;
+          line-height: 1.5rem; } }
+      .main__portfolio__item__header__title:after {
+        content: '';
+        width: 100%;
+        height: 2px;
+        background: #28282a;
+        display: block;
+        margin-top: 5px; }
+    .main__portfolio__item__description {
+      font-family: "Philosopher", cursive;
+      font-size: 1rem;
+      line-height: 1.5rem;
+      font-style: italic;
+      margin-bottom: 10px; }
+      @media (max-width: 768px) {
+        .main__portfolio__item__description {
+          font-size: 0.8rem;
+          line-height: 1.5rem; } }
+    .main__portfolio__item__last-line {
+      display: flex;
+      justify-content: space-between; }
+    .main__portfolio__item__price {
+      font-family: "News701 BT", sans-serif;
+      font-size: 1.3rem; }
+      @media (max-width: 768px) {
+        .main__portfolio__item__price {
+          font-size: 1rem;
+          line-height: 1.5rem; } }
+    .main__portfolio__item__button {
+      background: #28282a;
+      padding: 10px 20px;
+      font-family: "News701 BT", sans-serif;
+      font-size: 0.8rem;
+      text-align: center;
+      text-transform: uppercase;
+      color: white;
+      transition: .3s;
+      transform: translate3d(0, -20px, 0);
+      opacity: 0; }
+      .main__portfolio__item__button:hover {
+        background: #540080;
+        transition: .3s; }
+    .main__portfolio__item:hover .main__portfolio__item__button {
+      transform: translate3d(0, 0, 0);
+      opacity: 1;
+      transition: .3s; }
+    .main__portfolio__item.active {
+      position: relative;
+      width: 1280px;
+      flex-direction: row;
+      justify-content: space-between; }
+    .main__portfolio__item__content.active {
+      width: 100%; }
 
 .footer {
   grid-area: 'footer'; }

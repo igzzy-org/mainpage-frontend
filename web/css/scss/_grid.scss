@@ -18,3 +18,8 @@
   display: grid;
   grid-template-columns: minmax(200px,1fr);
 }
+
+@mixin grid-4{
+  display: grid;
+  grid-template-columns: repeat(4, [col-start] minmax(200px, 1fr) [col-end]);
+}

@@ -64,6 +64,25 @@ $second_font: 'Philosopher', cursive;
   }
 }
 
+@mixin font_main_module_subtitle{
+  font-family: $main_font;
+  font-size: 1.3rem;
+  text-align: center;
+  @include cell_phone{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
+@mixin font_main_module_price{
+  font-family: $main_font;
+  font-size: 1.3rem;
+  @include cell_phone{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+}
+
 @mixin font_main_module_text{
   font-family: $second_font;
   font-size: 1rem;
