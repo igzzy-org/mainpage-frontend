@@ -7,6 +7,8 @@ export default function initAsideMenu() {
   const menuSandwich = new Dom('[data-aside="menu-sandwich"]').element();
   const menuSumario = new Dom('[data-aside="sumario"]').element();
 
+  const myPage = window.location.pathname.split("/").pop();
+
   menuSandwich.addEventListener('click', () => {
     mobileMenu.classList.toggle('active');
     menuSandwich.classList.toggle('active');
@@ -20,7 +22,7 @@ export default function initAsideMenu() {
     })
   })
 
-  menuSumario.addEventListener('click', event => {
+  if (myPage === "portfolio.html") menuSumario.addEventListener('click', event => {
     event.preventDefault();
     menuSumario.classList.toggle('active');
     outsideClick(menuSumario, ['click'], () => {

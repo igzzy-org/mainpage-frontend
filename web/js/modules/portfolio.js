@@ -1,6 +1,8 @@
 export default function initPortfolio() {
   const main = document.querySelector('[data-item="main"]');
 
+  console.log(document.getElementsByTagName('[data-item="main"]'));
+
   fetch('./canecas-json.json')
     .then(r => r.json())
     .then(json => {
@@ -19,7 +21,7 @@ export default function initPortfolio() {
       <p class="main__portfolio__item__description">Caneca Comum Branca</p>
       <div class="main__portfolio__item__last-line">
         <p class="main__portfolio__item__price">${item["Valor médio do item"]}</p>
-        <a class="main__portfolio__item__button" href="" data-item="button">Veja Mais</a>
+        <a class="main__portfolio__item__button data-item-button" href="" data-item="button">Veja Mais</a>
       </div>
     </div>
   </section>`);

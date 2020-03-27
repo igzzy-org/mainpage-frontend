@@ -4,12 +4,14 @@
 import initAsideMenu from "./modules/asideMenu.js";
 import initPortfolio from "./modules/portfolio.js";
 import initAnimateGrowthItem from "./modules/animateGrowthItem.js";
+import initPageSelector from "./modules/pageSelector.js";
 
 // initAnimateScroll();
 // window.onload = initAnimateMenu;
 // initMobileMenu();
 
 const myPage = window.location.pathname.split("/").pop();
+initPageSelector();
 if (myPage != "index.html") initAsideMenu();
 if (myPage === "portfolio.html") {
   initPortfolio();

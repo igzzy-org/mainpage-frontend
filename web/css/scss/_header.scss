@@ -1,9 +1,11 @@
 .header{
   grid-area: 'header';
-  @include grid-1;
-  padding: 25px 300px;
+  @include grid(1);
+  padding: 25px;
   margin-bottom: 30px;
   &__logo{
+    max-width: 450px;
+    justify-self: center;
     @include cell_phone{
       width: 85vw;
       margin: 0 auto;

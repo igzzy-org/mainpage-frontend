@@ -1,10 +1,13 @@
 .main__portfolio{
   grid-area: "content";
-  @include grid-4;
+  @include grid(4);
   gap: 30px;
-  @include cell_phone{
-    @include grid-1;
+  @include cell-phone{
+    @include grid(1);
     padding: 75px;
+  }
+  @include little-window{
+    @include grid(3);
   }
   &__item{
     display: grid;

@@ -3,3 +3,15 @@
         @content;
     }
 }
+
+@mixin medium-window{
+    @media (max-width: 1400px){
+        @content;
+    }
+}
+
+@mixin little-window{
+    @media (max-width: 1200px){
+        @content;
+    }
+}
