@@ -1075,6 +1075,75 @@ a {
       display: grid;
       grid-template-columns: repeat(1, [col-start] minmax(200px, 1fr) [col-end]);
       padding: 50px; } }
+  .main__portfolio__header {
+    grid-column: 1 / -1; }
+    .main__portfolio__header__title {
+      font-family: "News701 BT", sans-serif;
+      font-size: 2.5rem;
+      line-height: 4rem;
+      text-transform: uppercase;
+      text-align: center;
+      color: white; }
+      @media (max-width: 768px) {
+        .main__portfolio__header__title {
+          font-size: 1rem;
+          line-height: 1.5rem; } }
+      .main__portfolio__header__title::after {
+        content: '';
+        width: 50px;
+        height: 5px;
+        border: none;
+        background: white;
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px; }
+        @media (max-width: 768px) {
+          .main__portfolio__header__title::after {
+            height: 3px; } }
+    .main__portfolio__header__subtitle {
+      font-family: "Philosopher", cursive;
+      font-size: 2rem;
+      line-height: 3rem;
+      text-align: center;
+      font-style: italic;
+      color: white; }
+      @media (max-width: 768px) {
+        .main__portfolio__header__subtitle {
+          font-size: 1rem;
+          line-height: 1.5rem; } }
+      @media (max-width: 768px) {
+        .main__portfolio__header__subtitle {
+          line-height: 0rem;
+          margin-bottom: 0; } }
+    .main__portfolio__header__esptitle {
+      font-family: "Philosopher", cursive;
+      font-size: 1.2rem;
+      line-height: 1.7rem;
+      font-style: italic;
+      color: white;
+      display: flex;
+      align-items: center;
+      margin-top: 30px; }
+      @media (max-width: 768px) {
+        .main__portfolio__header__esptitle {
+          font-size: 1rem;
+          line-height: 1.5rem; } }
+      @media (max-width: 768px) {
+        .main__portfolio__header__esptitle {
+          margin-top: 15px; } }
+      .main__portfolio__header__esptitle::before {
+        content: '';
+        width: 15px;
+        height: 1px;
+        margin-right: 5px;
+        background-color: white; }
+      .main__portfolio__header__esptitle::after {
+        content: '';
+        flex: 1;
+        height: 1px;
+        background-color: white;
+        margin-left: 8px;
+        margin-top: 2px; }
   .main__portfolio__item {
     display: grid;
     height: 350px;

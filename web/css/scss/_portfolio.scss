@@ -9,6 +9,59 @@
     @include grid(1);
     padding: 50px;
   }
+  &__header{
+    grid-column: 1 / -1;
+    &__title{
+      @include font_main_title;
+      color: white;
+      &::after{
+        content: '';
+        width: 50px;
+        height: 5px;
+        border: none;
+        background: white;
+        display: block;
+        margin: 0 auto;
+        margin-top: 15px;
+        @include cell_phone{
+          height: 3px;
+        }
+      }
+    }
+    &__subtitle{
+      @include font_main_subtitle;
+      color: white;
+      @include cell_phone{
+        line-height: 0rem;
+        margin-bottom: 0;
+      }
+    }
+    &__esptitle{
+      @include font_main_text;
+      color: white;
+      display: flex;
+      align-items: center;
+      margin-top: 30px;
+      @include cell_phone{
+        margin-top: 15px;
+      }
+      &::before{
+        content: '';
+        width: 15px;
+        height: 1px;
+        margin-right: 5px;
+        background-color: white;
+      }
+      &::after{
+        content: '';
+        flex: 1;
+        height: 1px;
+        background-color: white;
+        margin-left: 8px;
+        margin-top: 2px;
+      }
+    }
+  }
   &__item{
     display: grid;
     height: 350px;

@@ -13,7 +13,11 @@
    "Quatidade em estoque": 25,
    "Valor médio de compra": "R$ 7,95",
    "Valor médio de produção": "R$ 2,39",
-   "Valor médio do item": "R$ 10,34"
+   "Valor médio do item": "R$ 10,34",
+   "Valor de Venda": "R$ 24,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Cor sólida"
  },
  {
    "Referência": " CAN0002",
@@ -29,7 +33,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Cor sólida"
  },
  {
    "Referência": " CAN0003",
@@ -45,7 +53,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Tarja branca"
  },
  {
    "Referência": " CAN0004",
@@ -61,7 +73,11 @@
    "Quatidade em estoque": -25,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Tarja branca"
  },
  {
    "Referência": " CAN0005",
@@ -77,7 +93,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Tarja branca"
  },
  {
    "Referência": " CAN0006",
@@ -93,7 +113,11 @@
    "Quatidade em estoque": 3,
    "Valor médio de compra": "R$ 17,50",
    "Valor médio de produção": "R$ 2,49",
-   "Valor médio do item": "R$ 19,99"
+   "Valor médio do item": "R$ 19,99",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Tarja branca"
  },
  {
    "Referência": " CAN0007",
@@ -109,7 +133,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Tarja branca"
  },
  {
    "Referência": " CAN0008",
@@ -125,7 +153,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Tarja branca"
  },
  {
    "Referência": " CAN0009",
@@ -141,7 +173,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Tarja branca"
  },
  {
    "Referência": " CAN0010",
@@ -157,7 +193,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Tarja branca"
  },
  {
    "Referência": " CAN0011",
@@ -173,7 +213,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Tarja fluorescente"
  },
  {
    "Referência": " CAN0012",
@@ -189,7 +233,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior colorido"
  },
  {
    "Referência": " CAN0013",
@@ -205,7 +253,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior colorido"
  },
  {
    "Referência": " CAN0014",
@@ -221,7 +273,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior colorido"
  },
  {
    "Referência": " CAN0015",
@@ -237,7 +293,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior colorido"
  },
  {
    "Referência": " CAN0016",
@@ -253,7 +313,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior colorido"
  },
  {
    "Referência": " CAN0017",
@@ -269,7 +333,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior colorido"
  },
  {
    "Referência": " CAN0018",
@@ -285,7 +353,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0019",
@@ -301,7 +373,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0020",
@@ -317,7 +393,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0021",
@@ -333,7 +413,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0022",
@@ -349,7 +433,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0023",
@@ -365,7 +453,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0024",
@@ -381,7 +473,11 @@
    "Quatidade em estoque": 25,
    "Valor médio de compra": "R$ 12,25",
    "Valor médio de produção": "R$ 2,44",
-   "Valor médio do item": "R$ 14,69"
+   "Valor médio do item": "R$ 14,69",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0025",
@@ -397,7 +493,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0026",
@@ -413,7 +513,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0027",
@@ -429,7 +533,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0028",
@@ -445,7 +553,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior temático"
  },
  {
    "Referência": " CAN0029",
@@ -461,7 +573,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior temático"
  },
  {
    "Referência": " CAN0030",
@@ -477,7 +593,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior temático"
  },
  {
    "Referência": " CAN0031",
@@ -493,7 +613,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior temático"
  },
  {
    "Referência": " CAN0032",
@@ -509,7 +633,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior temático"
  },
  {
    "Referência": " CAN0033",
@@ -525,7 +653,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior temático"
  },
  {
    "Referência": " CAN0034",
@@ -541,7 +673,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior temático"
  },
  {
    "Referência": " CAN0035",
@@ -557,7 +693,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Interior temático"
  },
  {
    "Referência": " CAN0036",
@@ -573,7 +713,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Glitter"
  },
  {
    "Referência": " CAN0037",
@@ -589,7 +733,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Glitter"
  },
  {
    "Referência": " CAN0038",
@@ -605,7 +753,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Glitter"
  },
  {
    "Referência": " CAN0039",
@@ -621,7 +773,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Glitter"
  },
  {
    "Referência": " CAN0040",
@@ -637,7 +793,11 @@
    "Quatidade em estoque": 1,
    "Valor médio de compra": "R$ 16,86",
    "Valor médio de produção": "R$ 2,48",
-   "Valor médio do item": "R$ 19,34"
+   "Valor médio do item": "R$ 19,34",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Glitter"
  },
  {
    "Referência": " CAN0041",
@@ -653,7 +813,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Cromada"
  },
  {
    "Referência": " CAN0042",
@@ -669,7 +833,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Cromada"
  },
  {
    "Referência": " CAN0043",
@@ -685,7 +853,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Cromada"
  },
  {
    "Referência": " CAN0044",
@@ -701,7 +873,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Cromada"
  },
  {
    "Referência": " CAN0045",
@@ -717,7 +893,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Cromada"
  },
  {
    "Referência": " CAN0046",
@@ -733,7 +913,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Metalizada"
  },
  {
    "Referência": " CAN0047",
@@ -749,7 +933,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Metalizada"
  },
  {
    "Referência": " CAN0048",
@@ -765,7 +953,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Metalizada"
  },
  {
    "Referência": " CAN0049",
@@ -781,7 +973,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Alça coração"
  },
  {
    "Referência": " CAN0050",
@@ -797,7 +993,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Alça coração com interior e alça colorida"
  },
  {
    "Referência": " CAN0051",
@@ -813,7 +1013,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 16,80",
    "Valor médio de produção": "R$ 2,48",
-   "Valor médio do item": "R$ 19,28"
+   "Valor médio do item": "R$ 19,28",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Alça coração com interior e alça colorida"
  },
  {
    "Referência": " CAN0052",
@@ -829,7 +1033,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Alça coração com interior e alça colorida"
  },
  {
    "Referência": " CAN0053",
@@ -845,7 +1053,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Alça coração com interior e alça colorida"
  },
  {
    "Referência": " CAN0054",
@@ -861,7 +1073,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Alça coração com interior e alça colorida"
  },
  {
    "Referência": " CAN0055",
@@ -877,7 +1093,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Alça coração com interior e alça colorida"
  },
  {
    "Referência": " CAN0056",
@@ -893,7 +1113,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Alça coração com interior e alça colorida"
  },
  {
    "Referência": " CAN0057",
@@ -909,7 +1133,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Dupla com alça borboleta"
  },
  {
    "Referência": " CAN0058",
@@ -925,7 +1153,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cilíndricas",
+   "Especificidade": "Dupla com alça coração"
  },
  {
    "Referência": " CAN0059",
@@ -941,7 +1173,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cônicas",
+   "Especificidade": "Cor sólida"
  },
  {
    "Referência": " CAN0060",
@@ -957,7 +1193,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas comuns",
+   "Subgrupo": "Cônicas",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0061",
@@ -973,7 +1213,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Cor sólida"
  },
  {
    "Referência": " CAN0062",
@@ -989,7 +1233,11 @@
    "Quatidade em estoque": 3,
    "Valor médio de compra": "R$ 16,90",
    "Valor médio de produção": "R$ 2,48",
-   "Valor médio do item": "R$ 19,38"
+   "Valor médio do item": "R$ 19,38",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Cor sólida"
  },
  {
    "Referência": " CAN0063",
@@ -1005,7 +1253,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Cor sólida"
  },
  {
    "Referência": " CAN0064",
@@ -1021,7 +1273,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Cor sólida"
  },
  {
    "Referência": " CAN0065",
@@ -1037,7 +1293,11 @@
    "Quatidade em estoque": 3,
    "Valor médio de compra": "R$ 16,90",
    "Valor médio de produção": "R$ 2,48",
-   "Valor médio do item": "R$ 19,38"
+   "Valor médio do item": "R$ 19,38",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Cor sólida"
  },
  {
    "Referência": " CAN0066",
@@ -1053,7 +1313,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Cor sólida"
  },
  {
    "Referência": " CAN0067",
@@ -1069,7 +1333,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Cor sólida"
  },
  {
    "Referência": " CAN0068",
@@ -1085,7 +1353,11 @@
    "Quatidade em estoque": 4,
    "Valor médio de compra": "R$ 16,90",
    "Valor médio de produção": "R$ 2,48",
-   "Valor médio do item": "R$ 19,38"
+   "Valor médio do item": "R$ 19,38",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Cor sólida"
  },
  {
    "Referência": " CAN0069",
@@ -1101,7 +1373,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Cor sólida"
  },
  {
    "Referência": " CAN0070",
@@ -1117,7 +1393,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0071",
@@ -1133,7 +1413,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0072",
@@ -1149,7 +1433,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0073",
@@ -1165,7 +1453,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0074",
@@ -1181,7 +1473,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Alça coração"
  },
  {
    "Referência": " CAN0075",
@@ -1197,7 +1493,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Alça coração"
  },
  {
    "Referência": " CAN0076",
@@ -1213,7 +1513,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Alça coração"
  },
  {
    "Referência": " CAN0077",
@@ -1229,7 +1533,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Mágicas",
+   "Especificidade": "Alça coração"
  },
  {
    "Referência": " CAN0078",
@@ -1245,7 +1553,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Com colher",
+   "Especificidade": "Interior colorido"
  },
  {
    "Referência": " CAN0079",
@@ -1261,7 +1573,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Com colher",
+   "Especificidade": "Interior colorido"
  },
  {
    "Referência": " CAN0080",
@@ -1277,7 +1593,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Com colher",
+   "Especificidade": "Interior colorido"
  },
  {
    "Referência": " CAN0081",
@@ -1293,7 +1613,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Com colher",
+   "Especificidade": "Interior colorido"
  },
  {
    "Referência": " CAN0082",
@@ -1309,7 +1633,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Com colher",
+   "Especificidade": "Interior colorido"
  },
  {
    "Referência": " CAN0083",
@@ -1325,7 +1653,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Com colher",
+   "Especificidade": "Interior colorido"
  },
  {
    "Referência": " CAN0084",
@@ -1341,7 +1673,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Com colher",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0085",
@@ -1357,7 +1693,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Com colher",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0086",
@@ -1373,7 +1713,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Com colher",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0087",
@@ -1389,7 +1733,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Com colher",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0088",
@@ -1405,7 +1753,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Com colher",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0089",
@@ -1421,7 +1773,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Com colher",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0090",
@@ -1437,7 +1793,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Com colher",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0091",
@@ -1453,7 +1813,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Com colher",
+   "Especificidade": "Interior e alça colorida"
  },
  {
    "Referência": " CAN0092",
@@ -1469,11 +1833,15 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Objeto na alça",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0093",
-   "Item": "Caneca com Bola de Futebol na Coração",
+   "Item": "Caneca com Coração na Alça",
    "Forma": "Comum",
    "Estilo": "Comum",
    "Alça": "Com item",
@@ -1485,11 +1853,15 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Objeto na alça",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0094",
-   "Item": "Caneca com Bola de Futebol na Smile",
+   "Item": "Caneca com Smile na Alça",
    "Forma": "Comum",
    "Estilo": "Comum",
    "Alça": "Com item",
@@ -1501,11 +1873,15 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Objeto na alça",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0095",
-   "Item": "Caneca com Bola de Futebol na Basquete",
+   "Item": "Caneca com Bola de Basquete na Alça",
    "Forma": "Comum",
    "Estilo": "Comum",
    "Alça": "Com item",
@@ -1517,7 +1893,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Objeto na alça",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0096",
@@ -1533,7 +1913,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Objeto na alça",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0097",
@@ -1549,7 +1933,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Emoji",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0098",
@@ -1565,7 +1953,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Tampa e base de silicone",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0099",
@@ -1581,7 +1973,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Tampa e base de silicone",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0100",
@@ -1597,7 +1993,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Tampa e base de silicone",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0101",
@@ -1613,7 +2013,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Tampa e base de silicone",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0102",
@@ -1629,7 +2033,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Tampa e base de silicone",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0103",
@@ -1645,7 +2053,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Tampa e base de silicone",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0104",
@@ -1661,7 +2073,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Tampa e base de silicone",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0105",
@@ -1677,7 +2093,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Tampa e base de silicone",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0106",
@@ -1693,7 +2113,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Lousa com giz",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0107",
@@ -1709,7 +2133,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Xícaras de café",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0108",
@@ -1725,7 +2153,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 24,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Xícaras de café",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0109",
@@ -1741,7 +2173,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 24,90",
+   "Grupo": "Canecas especiais",
+   "Subgrupo": "Xícaras de café",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0110",
@@ -1757,7 +2193,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Aço inox",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0111",
@@ -1773,7 +2213,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Aço inox",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0112",
@@ -1789,7 +2233,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 24,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Alumínio",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0113",
@@ -1805,7 +2253,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 24,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Alumínio",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0114",
@@ -1821,7 +2273,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Alumínio",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0115",
@@ -1837,7 +2293,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Alumínio",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0116",
@@ -1853,7 +2313,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 24,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Alumínio",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0117",
@@ -1869,7 +2333,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Alumínio",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0118",
@@ -1885,7 +2353,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Alumínio",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0119",
@@ -1901,7 +2373,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Alumínio",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0120",
@@ -1917,7 +2393,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Alumínio",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0121",
@@ -1933,7 +2413,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Alumínio",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0122",
@@ -1949,7 +2433,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Alumínio",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0123",
@@ -1965,7 +2453,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 29,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Alumínio",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0124",
@@ -1981,7 +2473,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 34,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Alumínio",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0125",
@@ -1997,7 +2493,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 42,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Vidro",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0126",
@@ -2013,7 +2513,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 42,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Vidro",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0127",
@@ -2029,7 +2533,11 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 39,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Vidro",
+   "Especificidade": ""
  },
  {
    "Referência": " CAN0128",
@@ -2045,6 +2553,10 @@
    "Quatidade em estoque": 0,
    "Valor médio de compra": "R$ 0,00",
    "Valor médio de produção": "R$ 2,31",
-   "Valor médio do item": "R$ 2,31"
+   "Valor médio do item": "R$ 2,31",
+   "Valor de Venda": "R$ 39,90",
+   "Grupo": "Canecas de materiais diferentes",
+   "Subgrupo": "Vidro",
+   "Especificidade": ""
  }
 ]
