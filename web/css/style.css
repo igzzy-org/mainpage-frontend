@@ -1164,8 +1164,10 @@ a {
       opacity: 1;
       transition: .3s; }
 
-.main > * {
-  animation: animate_from_right_to_left .3s forwards; }
+.main {
+  min-height: 65vh; }
+  .main > * {
+    animation: animate_from_right_to_left .3s forwards; }
 
 .aside-animation {
   animation: opacity_fade_in .3s forwards; }

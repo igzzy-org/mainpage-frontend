@@ -1,5 +1,8 @@
-.main > * {
-  animation: animate_from_right_to_left .3s forwards;
+.main{
+  min-height: 65vh;
+  > *{
+    animation: animate_from_right_to_left .3s forwards;
+  }
 }
 
 .aside-animation{
