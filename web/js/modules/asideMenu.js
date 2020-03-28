@@ -6,6 +6,7 @@ export default function initAsideMenu() {
   const menuSandwich = new Dom('[data-aside="menu-sandwich"]').element();
   const menuSumario = new Dom('[data-aside="sumario"]').element();
   const mainMenu = new Dom('[data-aside="main-menu"]').element();
+  const linksExternos = new Dom('[data-externo]').listElements();
 
   menuSandwich.addEventListener('click', () => {
     mobileMenu.classList.toggle('active');
@@ -27,4 +28,12 @@ export default function initAsideMenu() {
       menuSumario.classList.remove('active');
     })
   })
+
+  linksExternos.forEach(link => {
+    link.addEventListener('click', event => {
+      event.preventDefault();
+      window.open(event.target.href);
+    });
+  })
+
 }
