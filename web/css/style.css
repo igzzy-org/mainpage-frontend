@@ -397,6 +397,16 @@ a {
 
 /* CONTAINER */
 .container {
+  background: #414144;
+  /* Old browsers */
+  background: -moz-linear-gradient(-45deg, #414144 0%, #0f0f10 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(-45deg, #414144 0%, #0f0f10 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(135deg, #414144 0%, #0f0f10 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='$lighten', endColorstr='$darken',GradientType=1 );
+  /* IE6-9 fallback on horizontal gradient */
   display: grid;
   max-width: 1280px;
   margin: 0 auto;
@@ -426,7 +436,7 @@ a {
   top: 0;
   left: 0;
   height: 100vh;
-  z-index: -1;
+  z-index: 0;
   width: 100vw; }
 
 .header {
@@ -798,6 +808,9 @@ a {
         font-size: 1rem;
         line-height: 1.5rem; } }
 
+.display-none {
+  display: none; }
+
 .main__index {
   grid-area: 'content'; }
 
@@ -1039,15 +1052,15 @@ a {
   display: grid;
   grid-template-columns: repeat(4, [col-start] minmax(200px, 1fr) [col-end]);
   gap: 30px; }
+  @media (max-width: 1200px) {
+    .main__portfolio {
+      display: grid;
+      grid-template-columns: repeat(3, [col-start] minmax(200px, 1fr) [col-end]); } }
   @media (max-width: 768px) {
     .main__portfolio {
       display: grid;
       grid-template-columns: repeat(1, [col-start] minmax(200px, 1fr) [col-end]);
       padding: 75px; } }
-  @media (max-width: 1200px) {
-    .main__portfolio {
-      display: grid;
-      grid-template-columns: repeat(3, [col-start] minmax(200px, 1fr) [col-end]); } }
   .main__portfolio__item {
     display: grid;
     height: 350px;
@@ -1055,7 +1068,8 @@ a {
     background: white;
     position: relative;
     padding: 15px;
-    transition: .3s; }
+    transition: .3s;
+    z-index: auto; }
     .main__portfolio__item:hover:before {
       background: #B31279;
       transition: .3s; }
@@ -1068,7 +1082,7 @@ a {
       right: -2px;
       transform: skew(2deg, 2deg);
       z-index: -1;
-      background: #EDCF18;
+      background-color: #EDCF18;
       transition: .3s; }
     .main__portfolio__item__img {
       align-self: center;

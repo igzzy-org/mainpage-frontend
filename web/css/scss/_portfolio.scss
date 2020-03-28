@@ -2,22 +2,22 @@
   grid-area: "content";
   @include grid(4);
   gap: 30px;
+  @include little-window{
+    @include grid(3);
+  }
   @include cell-phone{
     @include grid(1);
     padding: 75px;
-  }
-  @include little-window{
-    @include grid(3);
   }
   &__item{
     display: grid;
     height: 350px;
     grid-template-rows: [row1-start] 4fr [row1-end row2-start] 1fr [row2-end];
-    // justify-content: center;
     background: white;
     position: relative;
     padding: 15px;
     transition: .3s;
+    z-index: auto;
     &:hover:before{
       background: $first_color;
       transition: .3s;
@@ -31,7 +31,7 @@
       right: -2px;
       transform: skew(2deg, 2deg);
       z-index: -1;
-      background: $second_color;
+      background-color: $second_color;
       transition: .3s;
     }
     &__img{

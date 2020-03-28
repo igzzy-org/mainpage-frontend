@@ -1,8 +1,6 @@
 export default function initPortfolio() {
   const main = document.querySelector('[data-item="main"]');
 
-  console.log(document.getElementsByTagName('[data-item="main"]'));
-
   fetch('./canecas-json.json')
     .then(r => r.json())
     .then(json => {
