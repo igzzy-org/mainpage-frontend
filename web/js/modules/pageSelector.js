@@ -77,7 +77,7 @@ export default function initPageSelector() {
     aside_config.asideMobile = aside[0];
     aside_config.asideSumario = aside[1];
     aside_config.asideMenu = aside[2];
-    aside_config[myPage]();
+    if (myPage != '') aside_config[myPage]();
   }
 
   const aside_config = {
