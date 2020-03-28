@@ -1,9 +1,11 @@
 export default function initPortfolio() {
   const main = document.querySelector('[data-item="main"]');
 
+  loadingAnimation();
   fetch('./canecas-json.json')
     .then(r => r.json())
     .then(json => {
+      main.innerHTML = '';
       json.forEach(item => {
         main.appendChild(createContainer(item));
       })
@@ -24,5 +26,10 @@ export default function initPortfolio() {
     </div>
   </section>`);
     return container;
+  }
+
+  function loadingAnimation() {
+    const main = document.querySelector('[data-item="main"]');
+    main.innerHTML = '<div class="loading"><div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>';
   }
 }

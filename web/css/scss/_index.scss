@@ -1,24 +1,28 @@
-.main__index{
+.main__index {
   grid-area: 'content';
 }
 
-.page-404{
-  &__header{
+.page-404 {
+  &__header {
     justify-self: center;
     margin-bottom: 75px;
-    @include cell_phone{
+
+    @include cell_phone {
       margin-bottom: 45px;
     }
-    &__title{
+
+    &__title {
       @include font_main_title;
       @include font_linear_gradient_text_color($first_color);
     }
-    &__text{
+
+    &__text {
       @include font_main_subtitle;
       @include font_linear_gradient_text_color($second_color);
     }
-    &:after{
-      @include cell_phone{
+
+    &:after {
+      @include cell_phone {
         content: '→';
         color: $second_color;
         position: absolute;
@@ -29,10 +33,12 @@
       }
     }
   }
-  &__modules{
+
+  &__modules {
     display: flex;
     justify-content: space-around;
-    @include cell_phone{
+
+    @include cell_phone {
       overflow-y: auto;
       -webkit-overflow-scrolling: touch;
       -ms-overflow-style: -ms-autohiding-scrollbar;
@@ -41,22 +47,23 @@
       margin: 0 auto;
       padding: 15px 15px;
     }
-    & > *{
+
+    &>* {
       flex: 1 0 250px;
       display: grid;
-      grid: 'header' 40%
-            'text' 60%
-            ;
+      grid: 'header'40% 'text'60%;
       padding: 0 30px;
       height: 450px;
       background: $background_color;
       color: white;
       position: relative;
-      @include cell_phone{
+
+      @include cell_phone {
         min-width: 250px;
         height: 350px;
       }
-      &:before{
+
+      &:before {
         content: '';
         position: absolute;
         top: -2px;
@@ -68,68 +75,84 @@
         @include fallback_horizontal_gradient($second_color);
       }
     }
-    &__header{
+
+    &__header {
       z-index: 200;
       margin-bottom: 15px;
       text-transform: uppercase;
       align-self: end;
       @include font_main_module_title;
     }
-    &__text{
+
+    &__text {
       z-index: 200;
       @include font_main_module_text;
-      & strong{
+
+      & strong {
         text-transform: uppercase;
       }
     }
-    &__image{
+
+    &__image {
       position: absolute;
       top: 100px;
       right: 15px;
       width: 200px;
       height: 200px;
       transition: .3s;
-      @include cell_phone{
+
+      @include cell_phone {
         width: 100px;
         height: 100px;
       }
     }
-    &__instagram, &__portfolio{
-      &:hover &__image{
+
+    &__instagram,
+    &__portfolio {
+      &:hover &__image {
         top: 25px;
         transition: .3s;
       }
-      &:hover &__button{
+
+      &:hover &__button {
         bottom: 15px;
         opacity: 1;
         transition: .3s;
       }
     }
-    &__facebook, &__who-we-are{
+
+    &__facebook,
+    &__who-we-are {
       margin: 0 20px 0 40px;
-      &:hover &__image{
+
+      &:hover &__image {
         top: 25px;
         transition: .3s;
       }
-      &:hover &__button{
+
+      &:hover &__button {
         bottom: 15px;
         opacity: 1;
         transition: .3s;
       }
     }
-    &__who-we-are{
+
+    &__who-we-are {
       margin: 0 40px 0 20px;
-      &:hover &__image{
+
+      &:hover &__image {
         top: 25px;
         transition: .3s;
       }
-      &:hover &__button{
+
+      &:hover &__button {
         bottom: 15px;
         opacity: 1;
         transition: .3s;
       }
     }
-    &__button{
+
+    &__button {
       position: absolute;
       bottom: 50px;
       opacity: 0;
@@ -142,15 +165,18 @@
       color: $background_color;
       transition: .3s;
       z-index: 200;
-      @include cell_phone{
+
+      @include cell_phone {
         bottom: 15px;
         opacity: 1;
       }
-      &:hover{
+
+      &:hover {
         cursor: pointer;
         background-color: $third_color;
         color: white;
-        @include cell_phone{
+
+        @include cell_phone {
           cursor: none;
           background-color: white;
           color: $background_color;
@@ -159,4 +185,3 @@
     }
   }
 }
-

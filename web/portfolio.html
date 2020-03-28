@@ -18,7 +18,7 @@
 </head>
 <body class="container">
     <!-- <div class="full"></div> -->
-    <aside class="aside" data-aside="menu-mobile">
+    <aside class="aside aside-animation" data-aside="menu-mobile">
       <nav class="aside__nav">
         <header class="aside__nav__header"><h2 class="aside__nav__header__title">IGZZY</h2></header>
         <ul class="aside__nav__menu">
@@ -29,22 +29,23 @@
       </nav>
       <div class="menu-sandwich" data-aside="menu-sandwich"><div class="menu-sandwich__line menu-sandwich__line--one"></div><div class="menu-sandwich__line menu-sandwich__line--two"></div><div class="menu-sandwich__line menu-sandwich__line--three"></div></div>
     </aside>
-    <aside class="aside__sumario" data-aside="sumario">
+    <aside class="aside__sumario aside-animation" data-aside="sumario">
       <header class="aside__sumario__header"><h2 class="aside__sumario__header__title">Sumário</h2></header>
     </aside>
-    <aside class="aside__button" data-aside="main-menu">
+    <aside class="aside__button aside-animation" data-aside="main-menu">
       <nav class="aside__button__up">
         <div class="aside__button__top aside__button__top__home aside__button--grid">
           <a href="index.html" class="aside__button__top__item--text aside__button__top__home--text" data-link>Home</a>
           <a href="index.html" class="aside__button__top__item--img aside__button__top__home--img" data-link></a>
         </div>
         <div class="aside__button__top aside__button__top__who-we-are aside__button--grid">
-          <a href="quem-somos.html" class="aside__button__top__item--text aside__button__top__who-we-are--text" data-link>Quem somos</a>
-          <a href="quem-somos.html" class="aside__button__top__item--img aside__button__top__who-we-are--img" data-link></a>
+          <a href="quem-somos.html" class="aside__button__top__item--text aside__button__top__who-we-are--text" data-link data-active="who-we-are">Quem somos</a>
+          <a href="quem-somos.html" class="aside__button__top__item--img aside__button__top__who-we-are--img" data-link data-active="who-we-are"></a>
         </div>
         <div class="aside__button__top aside__button__top__portfolio aside__button--grid">
-          <a href="portfolio.html" class="aside__button__top__item--text aside__button__top__portfolio--text active" data-link>Portfólio</a>
-          <a href="portfolio.html" class="aside__button__top__item--img aside__button__top__portfolio--img active" data-link></a>
+          <a href="portfolio.html" class="aside__button__top__item--text aside__button__top__portfolio--text active" data-link data-active="portfolio">Portfólio</a>
+          <a href="portfolio.html" class="aside__button__top__item--img aside__button__top__portfolio--img active" data-link data-active="portfolio"></a>
+        </div>
         </div>
       </nav>
       <nav class="aside__button__down">
@@ -59,9 +60,10 @@
       </nav>
     </aside>
     <header class="header">
-        <figure class="header__logo"><a href="index.html" data-link><img src="images/Igzzy.png" alt="Logo"></a></figure>
+        <figure class="header__logo"><a href="index.html"><img src="images/Igzzy.png" alt="Logo"></a></figure>
     </header>
-    <main class="main__portfolio" data-item="main" data-main="main">
+    <main class="main" data-main="main">
+      <section class="main__portfolio" data-item="main"></section>
     </main>
     <footer class="footer">
         <p class="copyright"> Todos os direitos reservados a Igzzy®. 2020</p>

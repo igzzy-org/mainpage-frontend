@@ -7,7 +7,7 @@
   }
   @include cell-phone{
     @include grid(1);
-    padding: 75px;
+    padding: 50px;
   }
   &__item{
     display: grid;

@@ -7,8 +7,14 @@ import initAnimateGrowthItem from "./animateGrowthItem.js";
 export default function initPageSelector() {
   function handleClick(event) {
     event.preventDefault();
+    loadingAnimation();
     window.history.pushState(null, null, event.target.href);
     fetchPage(event.target.href);
+  }
+
+  function loadingAnimation() {
+    const main = document.querySelector('[data-main="main"]');
+    main.innerHTML = '<div class="loading"><div class="lds-default"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div></div>';
   }
 
   async function fetchPage(url) {
@@ -56,9 +62,18 @@ export default function initPageSelector() {
     })
   }
 
+  function replaceHtmlMain(newHtml) {
+    const oldMain = document.querySelector('[data-main="main"]');
+    const newMain = newHtml.querySelector('[data-main="main"]');
+    oldMain.innerHTML = newMain.innerHTML;
+    oldMain.classList = newMain.classList;
+  }
+
   function attAsideDisplay() {
     const aside = document.querySelectorAll('aside');
     const myPage = window.location.pathname.split("/").pop().split('.')[0];
+    aside_config.asideActiveWhoWeAre = document.querySelectorAll('[data-active="who-we-are"]');
+    aside_config.asideActivePortfolio = document.querySelectorAll('[data-active="portfolio"]');
     aside_config.asideMobile = aside[0];
     aside_config.asideSumario = aside[1];
     aside_config.asideMenu = aside[2];
@@ -70,30 +85,40 @@ export default function initPageSelector() {
       if (!aside_config.asideMobile.classList.contains('display-none')) aside_config.asideMobile.classList.add('display-none');
       if (!aside_config.asideSumario.classList.contains('display-none')) aside_config.asideSumario.classList.add('display-none');
       if (!aside_config.asideMenu.classList.contains('display-none')) aside_config.asideMenu.classList.add('display-none');
+      aside_config.asideActiveWhoWeAre.forEach(item => {
+        if (item.classList.contains('active')) item.classList.remove('active');
+      })
+      aside_config.asideActivePortfolio.forEach(item => {
+        if (item.classList.contains('active')) item.classList.remove('active');
+      })
     },
     portfolio: () => {
       if (aside_config.asideMobile.classList.contains('display-none')) aside_config.asideMobile.classList.remove('display-none');
       if (aside_config.asideSumario.classList.contains('display-none')) aside_config.asideSumario.classList.remove('display-none');
       if (aside_config.asideMenu.classList.contains('display-none')) aside_config.asideMenu.classList.remove('display-none');
+      aside_config.asideActiveWhoWeAre.forEach(item => {
+        if (item.classList.contains('active')) item.classList.remove('active');
+      })
+      aside_config.asideActivePortfolio.forEach(item => {
+        if (!item.classList.contains('active')) item.classList.add('active');
+      })
     },
     "quem-somos": () => {
       if (aside_config.asideMobile.classList.contains('display-none')) aside_config.asideMobile.classList.remove('display-none');
       if (!aside_config.asideSumario.classList.contains('display-none')) aside_config.asideSumario.classList.add('display-none');
       if (aside_config.asideMenu.classList.contains('display-none')) aside_config.asideMenu.classList.remove('display-none');
+      aside_config.asideActiveWhoWeAre.forEach(item => {
+        if (!item.classList.contains('active')) item.classList.add('active');
+      })
+      aside_config.asideActivePortfolio.forEach(item => {
+        if (item.classList.contains('active')) item.classList.remove('active');
+      })
     }
-  }
-
-  function replaceHtmlMain(newHtml) {
-    const oldMain = document.querySelector('[data-main="main"]');
-    const newMain = newHtml.querySelector('[data-main="main"]');
-    oldMain.innerHTML = newMain.innerHTML;
-    oldMain.classList = newMain.classList;
   }
 
   function addingEventListenerToButtons() {
     const buttons = new Dom('[data-link]').listElements();
     buttons.forEach(button => {
-      // console.log("Adicionando event Listener");
       button.addEventListener('click', handleClick);
     })
   }
@@ -106,15 +131,13 @@ export default function initPageSelector() {
     }
   }
 
-  let flag = false;
+  let init = false;
 
-  if (!flag) {
+  if (!init) {
     initAsideMenu();
     addingEventListenerToButtons();
     callingPortfolioHandler();
     attAsideDisplay();
-    flag = true
+    init = true;
   };
-
-
 }
