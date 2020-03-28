@@ -114,3 +114,9 @@ $second_font: 'Philosopher', cursive;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; 
 }
+
+@mixin font_sumario{
+  font-family: $second_font;
+  font-size: 1rem;
+  // line-height: 1.5rem;
+}

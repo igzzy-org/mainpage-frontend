@@ -11,6 +11,14 @@
   height: 100vh;
   transition: .3s;
   z-index: 200;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
   &__nav{
     opacity: 0;
     margin: 15px;
@@ -303,12 +311,21 @@
   @include twocolors_fallback_horizontal_gradient($first_color, $third_color);
   position: fixed;
   top: 0;
-  left: 0;
-  width: 200px;
+  left: 60px;
+  width: 500px;
   height: 100vh;
   z-index: 20;
   cursor: pointer;
-  transform: translate3d(-100px, 0, 0);
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  transform: translate3d(-460px, 0, 0);
   transition: .3s;
   @include cell_phone{
     display: none;
@@ -318,7 +335,7 @@
     transition: .3s;
   }
   &:hover{
-    transform: translate3d(-90px, 0, 0);
+    transform: translate3d(-450px, 0, 0);
     transition: .3s;
   }
   &:hover.active{
@@ -339,4 +356,103 @@
 
 .display-none{
   display: none;
+}
+
+.sumario{
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  position: relative;
+  @include cell_phone{
+    margin: 0;
+  }
+  &::before{
+    @include cell_phone{
+      content: 'Sumário';
+      display: block;
+      @include font_sumario;
+      text-transform: uppercase;
+      text-align: center;
+      font-size: 1.1rem;
+      font-style: italic;
+      color: white;
+      margin-bottom: 45px;
+      margin-top: 50px;
+    }
+  }
+  &::after{
+    @include cell_phone{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background: white;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 0;
+    }
+  }
+  &__nivel-1{
+    color: white;
+    text-transform: uppercase;
+    @include font_sumario;
+    padding: 5px;
+    max-width: 70%;
+    &:hover{
+      color: $second_color;
+    }
+    &:before{
+      content: '•';
+      margin-right: 5px;
+      transition: .3s;
+    }
+    &:hover:before{
+      content: '×';
+      margin-right: 5px;
+      margin-left: 2.5px;
+      transition: .3s;
+    }
+  }
+  &__nivel-2{
+    color: white;
+    margin-left: 15px;
+    @include font_sumario;
+    padding: 5px;
+    max-width: 70%;
+    &:hover{
+      color: $second_color;
+    }
+    &:before{
+      content: '•';
+      margin-right: 5px;
+      transition: .3s;
+    }
+    &:hover:before{
+      content: '×';
+      margin-right: 5px;
+      margin-left: 2.5px;
+      transition: .3s;
+    }
+  }
+  &__nivel-3{
+    color: white;
+    margin-left: 30px;
+    @include font_sumario;
+    padding: 5px;
+    max-width: 70%;
+    &:hover{
+      color: $second_color;
+    }
+    &:before{
+      content: '•';
+      margin-right: 5px;
+      transition: .3s;
+    }
+    &:hover:before{
+      content: '×';
+      margin-right: 5px;
+      margin-left: 2.5px;
+      transition: .3s;
+    }
+  }
 }

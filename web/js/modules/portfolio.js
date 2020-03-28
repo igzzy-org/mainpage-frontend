@@ -1,3 +1,5 @@
+import initScrollSuaveLinkInterno from "./scrollSuaveLinkInterno.js";
+
 export default function initPortfolio() {
   const main = document.querySelector('[data-item="main"]');
 
@@ -8,6 +10,7 @@ export default function initPortfolio() {
       organizeJson(json);
       main.innerHTML = createElement().innerHTML;
       createSumario();
+      initScrollSuaveLinkInterno();
     })
 
   function organizeJson(json) {
@@ -17,11 +20,11 @@ export default function initPortfolio() {
   }
 
   function createSumario() {
-    const sumarioDiv = document.querySelectorAll('[data-sumario]');
-    const sum = createSumario_nivelOne();
+    const sumarioDiv = document.querySelectorAll('[data-sumario="menu"]');
+    const sum = document.createElement('div');
+    sum.appendChild(createSumario_nivelOne());
     sumarioDiv.forEach(item => {
-      item.appendChild(sum);
-      console.log(item);
+      item.innerHTML = sum.innerHTML;
     })
     return sumarioDiv;
   }
@@ -56,7 +59,6 @@ export default function initPortfolio() {
       if (pos_three != 0) {
         const li = document.createElement('li');
         li.appendChild(item);
-        // console.log(li);
         ul.appendChild(li);
       }
     })
@@ -140,19 +142,18 @@ export default function initPortfolio() {
         sumario.nivel_two += 1;
         div.appendChild(createSubtitle(subgroup));
         for (const esp in data[group][subgroup]) {
-          div.appendChild(createEsptitle(esp));
+          if (esp != '') div.appendChild(createEsptitle(esp));
           data[group][subgroup][esp].forEach(item => {
             div.appendChild(createItem(item))
           })
         }
       }
     }
-    console.log(sumario)
     return div;
   }
 
   function createTitle(title) {
-    const sum = document.createRange().createContextualFragment(`<a href="${'#' + title.replace(/ /g, "")}" class="sumario__nivel-1" data-sumario>${title}</a>`)
+    const sum = document.createRange().createContextualFragment(`<a href="${'#' + title.replace(/ /g, "")}" class="sumario__nivel-1" data-sumario="item">${title}</a>`)
     sumario.elemens.push([sum]);
     const itemTitle = document.createRange().createContextualFragment(`
       <header class="main__portfolio__header">
@@ -163,7 +164,7 @@ export default function initPortfolio() {
   }
 
   function createSubtitle(subtitle) {
-    const sum = document.createRange().createContextualFragment(`<a href="${'#' + subtitle.replace(/ /g, "") + sumario.nivel_one}" class="sumario__nivel-2" data-sumario>${subtitle}</a>`)
+    const sum = document.createRange().createContextualFragment(`<a href="${'#' + subtitle.replace(/ /g, "") + sumario.nivel_one}" class="sumario__nivel-2" data-sumario="item">${subtitle}</a>`)
     sumario.elemens[sumario.nivel_one].push([sum]);
     const itemSubtitle = document.createRange().createContextualFragment(`
       <header class="main__portfolio__header">
@@ -174,7 +175,7 @@ export default function initPortfolio() {
   }
 
   function createEsptitle(esptitle) {
-    const sum = document.createRange().createContextualFragment(`<a href="${'#' + esptitle.replace(/ /g, "") + sumario.nivel_two}" class="sumario__nivel-3" data-sumario>${esptitle}</a>`)
+    const sum = document.createRange().createContextualFragment(`<a href="${'#' + esptitle.replace(/ /g, "") + sumario.nivel_two}" class="sumario__nivel-3" data-sumario="item">${esptitle}</a>`)
     sumario.elemens[sumario.nivel_one][sumario.nivel_two].push(sum);
     const itemEsptitle = document.createRange().createContextualFragment(`
       <header class="main__portfolio__header">
