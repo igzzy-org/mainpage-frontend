@@ -1,6 +1,7 @@
 /* CONTAINER */
 .container{
-  @include fallback_horizontal_gradient($background_color);
+  background-color: $background_color;
+  // background-color: white;
   display: grid;
   max-width: 1280px;
   margin: 0 auto;

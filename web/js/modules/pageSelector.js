@@ -3,7 +3,6 @@ import initAsideMenu from "./asideMenu.js";
 import initPortfolio from "./portfolio.js";
 import initAnimateGrowthItem from "./animateGrowthItem.js";
 
-
 export default function initPageSelector() {
   function handleClick(event) {
     event.preventDefault();
@@ -74,6 +73,7 @@ export default function initPageSelector() {
     const myPage = window.location.pathname.split("/").pop().split('.')[0];
     aside_config.asideActiveWhoWeAre = document.querySelectorAll('[data-active="who-we-are"]');
     aside_config.asideActivePortfolio = document.querySelectorAll('[data-active="portfolio"]');
+    aside_config.asideSumarioActive = document.querySelectorAll('[data-sumario="menu"');
     aside_config.asideMobile = aside[0];
     aside_config.asideSumario = aside[1];
     aside_config.asideMenu = aside[2];
@@ -91,6 +91,9 @@ export default function initPageSelector() {
       aside_config.asideActivePortfolio.forEach(item => {
         if (item.classList.contains('active')) item.classList.remove('active');
       })
+      aside_config.asideSumarioActive.forEach(item => {
+        if (!item.classList.contains('display-none')) item.classList.add('display-none');
+      })
     },
     portfolio: () => {
       if (aside_config.asideMobile.classList.contains('display-none')) aside_config.asideMobile.classList.remove('display-none');
@@ -101,6 +104,9 @@ export default function initPageSelector() {
       })
       aside_config.asideActivePortfolio.forEach(item => {
         if (!item.classList.contains('active')) item.classList.add('active');
+      })
+      aside_config.asideSumarioActive.forEach(item => {
+        if (item.classList.contains('display-none')) item.classList.remove('display-none');
       })
     },
     "quem-somos": () => {
@@ -113,6 +119,9 @@ export default function initPageSelector() {
       aside_config.asideActivePortfolio.forEach(item => {
         if (item.classList.contains('active')) item.classList.remove('active');
       })
+      aside_config.asideSumarioActive.forEach(item => {
+        if (!item.classList.contains('display-none')) item.classList.add('display-none');
+      })
     }
   }
 
@@ -121,6 +130,7 @@ export default function initPageSelector() {
     buttons.forEach(button => {
       button.addEventListener('click', handleClick);
     })
+
   }
 
   function callingPortfolioHandler() {

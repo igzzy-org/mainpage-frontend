@@ -6,4 +6,5 @@ import initPageSelector from "./modules/pageSelector.js";
 // initAnimateScroll();
 // window.onload = initAnimateMenu;
 // initMobileMenu();
+
 window.onload = initPageSelector;

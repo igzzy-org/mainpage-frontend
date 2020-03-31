@@ -13,12 +13,10 @@
 
     &__title {
       @include font_main_title;
-      @include font_linear_gradient_text_color($first_color);
     }
 
     &__text {
       @include font_main_subtitle;
-      @include font_linear_gradient_text_color($second_color);
     }
 
     &:after {
@@ -37,6 +35,16 @@
   &__modules {
     display: flex;
     justify-content: space-around;
+
+    @include little_window{
+      overflow-y: auto;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+      justify-content: start;
+      max-width: 85vw;
+      margin: 0 auto;
+      padding: 15px 15px;
+    }
 
     @include cell_phone {
       overflow-y: auto;
@@ -57,6 +65,11 @@
       background: $background_color;
       color: white;
       position: relative;
+      
+      @include medium_window{
+        padding: 0 15px;
+        height: 400px;
+      }
 
       @include cell_phone {
         min-width: 250px;
@@ -87,7 +100,6 @@
     &__text {
       z-index: 200;
       @include font_main_module_text;
-
       & strong {
         text-transform: uppercase;
       }

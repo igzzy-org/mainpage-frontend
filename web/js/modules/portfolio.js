@@ -1,4 +1,5 @@
 import initScrollSuaveLinkInterno from "./scrollSuaveLinkInterno.js";
+import initHighlight from "./hightlight.js";
 
 export default function initPortfolio() {
   const main = document.querySelector('[data-item="main"]');
@@ -8,14 +9,31 @@ export default function initPortfolio() {
     .then(r => r.json())
     .then(json => {
       organizeJson(json);
+      console.log(data);
       main.innerHTML = createElement().innerHTML;
       createSumario();
       initScrollSuaveLinkInterno();
+      addEventToButtons();
     })
+
+  function addEventToButtons() {
+    const buttons = document.querySelectorAll('[data-item="button"');
+    buttons.forEach(button => {
+      button.addEventListener('click', handleButton);
+    })
+  }
+
+  function handleButton(event) {
+    event.preventDefault();
+    const highlight = document.querySelector('[data-highlight="main"]');
+    if (!highlight.classList.contains('active')) highlight.classList.add('active');
+    const ref = event.target.dataset.button.split(',');
+    initHighlight(data, ref);
+  }
 
   function organizeJson(json) {
     json.forEach(item => {
-      data[item.Grupo][item.Subgrupo][item.Especificidade].push(item)
+      data[item.Grupo][item.Subgrupo][item.Especificidade][item['Referência'].trim()] = item;
     })
   }
 
@@ -68,60 +86,60 @@ export default function initPortfolio() {
   const data = {
     'Canecas comuns': {
       'Cilíndricas': {
-        'Cor sólida': [],
-        'Tarja branca': [],
-        'Tarja fluorescente': [],
-        'Interior colorido': [],
-        'Interior e alça colorida': [],
-        'Interior temático': [],
-        'Glitter': [],
-        'Cromada': [],
-        'Metalizada': [],
-        'Alça coração': [],
-        'Alça coração com interior e alça colorida': [],
-        'Dupla com alça borboleta': [],
-        'Dupla com alça coração': []
+        'Cor sólida': {},
+        'Tarja branca': {},
+        'Tarja fluorescente': {},
+        'Interior colorido': {},
+        'Interior e alça colorida': {},
+        'Interior temático': {},
+        'Glitter': {},
+        'Cromada': {},
+        'Metalizada': {},
+        'Alça coração': {},
+        'Alça coração com interior e alça colorida': {},
+        'Dupla com alça borboleta': {},
+        'Dupla com alça coração': {}
       },
       'Cônicas': {
-        'Cor sólida': [],
-        'Interior e alça colorida': []
+        'Cor sólida': {},
+        'Interior e alça colorida': {}
       }
     },
     'Canecas especiais': {
       'Mágicas': {
-        'Cor sólida': [],
-        'Interior e alça colorida': [],
-        'Alça coração': []
+        'Cor sólida': {},
+        'Interior e alça colorida': {},
+        'Alça coração': {}
       },
       'Com colher': {
-        'Interior colorido': [],
-        'Interior e alça colorida': []
+        'Interior colorido': {},
+        'Interior e alça colorida': {}
       },
       'Objeto na alça': {
-        '': []
+        '': {}
       },
       'Emoji': {
-        '': []
+        '': {}
       },
       'Tampa e base de silicone': {
-        '': []
+        '': {}
       },
       'Lousa com giz': {
-        '': []
+        '': {}
       },
       'Xícaras de café': {
-        '': []
+        '': {}
       }
     },
     'Canecas de materiais diferentes': {
       'Aço inox': {
-        '': []
+        '': {}
       },
       'Alumínio': {
-        '': []
+        '': {}
       },
       'Vidro': {
-        '': []
+        '': {}
       }
     }
   }
@@ -143,8 +161,9 @@ export default function initPortfolio() {
         div.appendChild(createSubtitle(subgroup));
         for (const esp in data[group][subgroup]) {
           if (esp != '') div.appendChild(createEsptitle(esp));
-          data[group][subgroup][esp].forEach(item => {
-            div.appendChild(createItem(item))
+          const listObj = data[group][subgroup][esp];
+          Object.keys(listObj).forEach(item => {
+            div.appendChild(createItem(listObj[item]))
           })
         }
       }
@@ -195,7 +214,7 @@ export default function initPortfolio() {
         <p class="main__portfolio__item__description">Caneca Comum Branca</p>
         <div class="main__portfolio__item__last-line">
           <p class="main__portfolio__item__price">${item["Valor de Venda"]}</p>
-          <a class="main__portfolio__item__button data-item-button" href="" data-item="button">Veja Mais</a>
+          <a class="main__portfolio__item__button" data-item-button href="" data-item="button" data-button="${item['Referência'].trim()},${item.Grupo},${item.Subgrupo},${item.Especificidade}">Veja Mais</a>
         </div>
       </div>
     </section>`);
