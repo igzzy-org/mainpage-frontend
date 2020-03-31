@@ -28,10 +28,10 @@ export default function initHighlight(data, ref) {
       <div class="portfolio-highlight__gallery" data-gallery="gallery">
         <div class="portfolio-highlight__gallery__list">
           <img data-gallery="list" src="images/produtos/canecas/${item['Referência'].trim()}/${item['Referência'].trim()}-1x.webp" alt="${item['Item']}">
-          <img data-gallery="list" src="images/produtos/canecas/CAN0002-1x.webp" alt="">
-          <img data-gallery="list" src="images/produtos/canecas/CAN0003-1x.webp" alt="">
-          <img data-gallery="list" src="images/produtos/canecas/CAN0004-1x.webp" alt="">
-          <img data-gallery="list" src="images/produtos/canecas/CAN0005-1x.webp" alt="">
+          <img data-gallery="list" src="images/produtos/canecas/${item['Referência'].trim()}/${item['Referência'].trim()}-1x-1.webp" alt="">
+          <img data-gallery="list" src="images/produtos/canecas/${item['Referência'].trim()}/${item['Referência'].trim()}-1x-2.webp" alt="">
+          <img data-gallery="list" src="images/produtos/canecas/${item['Referência'].trim()}/${item['Referência'].trim()}-1x-3.webp" alt="">
+          <img data-gallery="list" src="images/produtos/canecas/${item['Referência'].trim()}/${item['Referência'].trim()}-1x-4.webp" alt="">
         </div>
         <div class="portfolio-highlight__gallery__main">
           <img data-gallery="main" src="images/produtos/canecas/${item['Referência'].trim()}/${item['Referência'].trim()}-1x.webp" alt="">
@@ -48,6 +48,13 @@ export default function initHighlight(data, ref) {
     div.appendChild(sum);
 
     container.innerHTML = div.innerHTML;
+  }
+
+  function is_img(file) {
+    console.log(file);
+    const img = new Image();
+    img.src = file;
+    return img.height != 0;
   }
 }
 
