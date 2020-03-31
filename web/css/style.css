@@ -1373,8 +1373,7 @@ a {
     @media (max-width: 768px) {
       .portfolio-highlight__container {
         grid-template-columns: 1fr;
-        grid-template-rows: 1fr 1fr;
-        gap: 15px; } }
+        grid-template-rows: 1fr 1fr; } }
     .portfolio-highlight__container__button {
       position: absolute;
       width: 40px;
