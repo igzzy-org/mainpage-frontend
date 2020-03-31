@@ -206,7 +206,7 @@ export default function initPortfolio() {
 
   function createItem(item) {
     const itemContainer = document.createRange().createContextualFragment(`<section class="main__portfolio__item" data-item="item">
-      <img class="main__portfolio__item__img" src="images/produtos/canecas/${item['Referência'].trim()}-1x.webp" alt="">
+      <img class="main__portfolio__item__img" src="images/produtos/canecas/${item['Referência'].trim()}/${item['Referência'].trim()}-1x.webp" alt="${item['Item']}">
       <div class="main__portfolio__item__content" data-item="content">
         <header class="main__portfolio__item__header">
           <h2 class="main__portfolio__item__header__title">${item["Item"]}</h2>

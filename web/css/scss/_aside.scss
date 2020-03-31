@@ -91,7 +91,8 @@
     transition: .3s;
   }
   &:hover{
-    transform: translate3d(-130px, 0, 0);
+    // transform: translate3d(-130px, 0, 0);
+    transform: translate3d(0, 0, 0);
     transition: .3s;
   }
   &:hover.active{
@@ -332,7 +333,8 @@
     transition: .3s;
   }
   &:hover{
-    transform: translate3d(-450px, 0, 0);
+    // transform: translate3d(-450px, 0, 0);
+    transform: translate3d(0, 0, 0);
     transition: .3s;
   }
   &:hover.active{

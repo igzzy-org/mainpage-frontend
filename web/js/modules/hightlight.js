@@ -27,14 +27,14 @@ export default function initHighlight(data, ref) {
       <div class="portfolio-highlight__container__button" data-highlight="button"><div class="click-close"></div><div class="click-close"></div></div>
       <div class="portfolio-highlight__gallery" data-gallery="gallery">
         <div class="portfolio-highlight__gallery__list">
-          <img data-gallery="list" src="images/produtos/canecas/${item['Referência'].trim()}-1x.webp" alt="">
+          <img data-gallery="list" src="images/produtos/canecas/${item['Referência'].trim()}/${item['Referência'].trim()}-1x.webp" alt="${item['Item']}">
           <img data-gallery="list" src="images/produtos/canecas/CAN0002-1x.webp" alt="">
           <img data-gallery="list" src="images/produtos/canecas/CAN0003-1x.webp" alt="">
           <img data-gallery="list" src="images/produtos/canecas/CAN0004-1x.webp" alt="">
           <img data-gallery="list" src="images/produtos/canecas/CAN0005-1x.webp" alt="">
         </div>
         <div class="portfolio-highlight__gallery__main">
-          <img data-gallery="main" src="images/produtos/canecas/${item['Referência'].trim()}-1x.webp" alt="">
+          <img data-gallery="main" src="images/produtos/canecas/${item['Referência'].trim()}/${item['Referência'].trim()}-1x.webp" alt="">
         </div>
       </div>
       <div class="portfolio-highlight__content">

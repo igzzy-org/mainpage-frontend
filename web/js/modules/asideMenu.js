@@ -13,21 +13,21 @@ export default function initAsideMenu() {
     menuSandwich.classList.toggle('active');
   });
 
-  mainMenu.addEventListener('click', event => {
-    event.preventDefault();
-    mainMenu.classList.toggle('active');
-    outsideClick(mainMenu, ['click'], () => {
-      mainMenu.classList.remove('active');
-    })
-  })
+  // mainMenu.addEventListener('click', event => {
+  //   event.preventDefault();
+  //   mainMenu.classList.toggle('active');
+  //   outsideClick(mainMenu, ['click'], () => {
+  //     mainMenu.classList.remove('active');
+  //   })
+  // })
 
-  menuSumario.addEventListener('click', event => {
-    event.preventDefault();
-    menuSumario.classList.toggle('active');
-    outsideClick(menuSumario, ['click'], () => {
-      menuSumario.classList.remove('active');
-    })
-  })
+  // menuSumario.addEventListener('click', event => {
+  //   event.preventDefault();
+  //   menuSumario.classList.toggle('active');
+  //   outsideClick(menuSumario, ['click'], () => {
+  //     menuSumario.classList.remove('active');
+  //   })
+  // })
 
   linksExternos.forEach(link => {
     link.addEventListener('click', event => {
