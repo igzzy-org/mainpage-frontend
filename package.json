@@ -1,0 +1,27 @@
+{
+  "name": "igzzy-404theme",
+  "version": "1.0.0",
+  "description": "site for igzzy.com.br",
+  "main": "web/index.html",
+  "scripts": {
+    "dev": "webpack --mode development --watch ./web/js/script.js --output ./web/main.js",
+    "build": "webpack --mode production ./web/js/script.js --output ./web/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caiquecamargo/Igzzy-404Theme.git"
+  },
+  "author": "caique de camargo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/caiquecamargo/Igzzy-404Theme/issues"
+  },
+  "homepage": "https://github.com/caiquecamargo/Igzzy-404Theme#readme",
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-airbnb-base": "^14.1.0",
+    "eslint-plugin-import": "^2.20.2",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  }
+}

@@ -1,4 +1,4 @@
-export default function Dom(selector){
+export default function Dom(selector) {
     this.selector = selector;
     this.element = () => {
         return document.querySelector(this.selector);

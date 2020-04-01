@@ -1,11 +1,10 @@
 import Dom from "./domInteractive.js";
 
 export default function initAnimatePortfolioGrowthItem() {
-  const itemButton = new Dom('[data-item="button"]').listElements();
-  const itemContainer = new Dom('[data-item="item"').listElements();
-  const itemContent = new Dom('[data-item="content"]').listElements();
+  const itemButton = Dom('[data-item="button"]').listElements();
+  const itemContainer = Dom('[data-item="item"').listElements();
+  const itemContent = Dom('[data-item="content"]').listElements();
 
-  // console.log(document.getElementsByClassName('data-item-button'));
 
   itemButton.forEach((item, pos) => {
     item.addEventListener('click', event => {

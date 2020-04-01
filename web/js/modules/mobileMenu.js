@@ -1,6 +1,6 @@
 import Dom from "./domInteractive.js";
 
-export default function initMobileMenu(){
+export default function initMobileMenu() {
     const menu = new Dom('.js-menu-sandwich').element();
 
     const menubar = document.createElement('aside');

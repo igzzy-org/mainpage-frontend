@@ -1,7 +1,7 @@
-import Dom from "./domInteractive.js";
-import initAsideMenu from "./asideMenu.js";
-import initPortfolio from "./portfolio.js";
-import initAnimateGrowthItem from "./animateGrowthItem.js";
+import Dom from "./domInteractive";
+import initAsideMenu from "./asideMenu";
+import initPortfolio from "./portfolio";
+import initAnimateGrowthItem from "./animateGrowthItem";
 
 export default function initPageSelector() {
   function handleClick(event) {
