@@ -2,6 +2,7 @@ import Dom from "./domInteractive";
 import initAsideMenu from "./asideMenu";
 import initPortfolio from "./portfolio";
 import initAnimateGrowthItem from "./animateGrowthItem";
+import ReplaceHtml from "./replaceHtml";
 
 export default function initPageSelector() {
   function handleClick(event) {
@@ -18,17 +19,9 @@ export default function initPageSelector() {
 
   async function fetchPage(url) {
     const pageResponse = await fetch(url);
-    const pageText = await pageResponse.text();
-    replaceHtml(pageText);
-  }
-
-  function replaceHtml(pageText) {
-    const newHtml = document.createElement('div');
-    newHtml.innerHTML = pageText;
-
-    replaceHtmlTitle(newHtml);
-    replaceHtmlMeta(newHtml);
-    replaceHtmlMain(newHtml);
+    const pageHtml = await pageResponse.text();
+    const replaceHtml = new ReplaceHtml(pageHtml);
+    replaceHtml.init();
     attAsideDisplay();
 
     addingEventListenerToButtons();
@@ -51,21 +44,6 @@ export default function initPageSelector() {
   function replaceHtmlTitle(newHtml) {
     const oldTitle = document.querySelector('title');
     document.title = newHtml.querySelector('title').innerText;
-  }
-
-  function replaceHtmlMeta(newHtml) {
-    const oldMeta = document.querySelectorAll('[data-meta]');
-    const newMeta = newHtml.querySelectorAll('[data-meta');
-    oldMeta.forEach((meta, pos) => {
-      meta.replaceWith(newMeta[pos]);
-    })
-  }
-
-  function replaceHtmlMain(newHtml) {
-    const oldMain = document.querySelector('[data-main="main"]');
-    const newMain = newHtml.querySelector('[data-main="main"]');
-    oldMain.innerHTML = newMain.innerHTML;
-    oldMain.classList = newMain.classList;
   }
 
   function attAsideDisplay() {
