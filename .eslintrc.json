@@ -15,7 +15,5 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": true
     },
-    "rules": {
-        "import/extensions": 0
-    }
+    "rules": {}
 }
