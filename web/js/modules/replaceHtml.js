@@ -25,7 +25,6 @@ export default class ReplaceHTML {
 
   init() {
     if (this.newHtml.innerHTML != '') {
-      console.log("to chamando as funcoes")
       this.replaceHtmlTitle();
       this.replaceHtmlMeta();
       this.replaceHtmlMain();
