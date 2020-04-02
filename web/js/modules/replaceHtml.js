@@ -1,4 +1,4 @@
-export default class ReplaceHtml {
+export default class ReplaceHTML {
   constructor(pageHtml) {
     this.newHtml = document.createElement('div');
     this.newHtml.innerHTML = pageHtml;
@@ -25,7 +25,6 @@ export default class ReplaceHtml {
 
   init() {
     if (this.newHtml.innerHTML != '') {
-      console.log("to chamando as funcoes")
       this.replaceHtmlTitle();
       this.replaceHtmlMeta();
       this.replaceHtmlMain();
