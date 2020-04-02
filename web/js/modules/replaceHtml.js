@@ -1,4 +1,4 @@
-export default class ReplaceHtml {
+export default class ReplaceHTML {
   constructor(pageHtml) {
     this.newHtml = document.createElement('div');
     this.newHtml.innerHTML = pageHtml;

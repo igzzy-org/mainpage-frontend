@@ -2,7 +2,7 @@ import Dom from "./domInteractive";
 import initAsideMenu from "./asideMenu";
 import initPortfolio from "./portfolio";
 import initAnimateGrowthItem from "./animateGrowthItem";
-import ReplaceHtml from "./replaceHtml";
+import ReplaceHTML from "./replaceHTML";
 
 export default function initPageSelector() {
   function handleClick(event) {
@@ -20,8 +20,8 @@ export default function initPageSelector() {
   async function fetchPage(url) {
     const pageResponse = await fetch(url);
     const pageHtml = await pageResponse.text();
-    const replaceHtml = new ReplaceHtml(pageHtml);
-    replaceHtml.init();
+    const replaceHTML = new ReplaceHTML(pageHtml);
+    replaceHTML.init();
     attAsideDisplay();
 
     addingEventListenerToButtons();
