@@ -222,6 +222,7 @@
     display: grid;
     grid-template-columns: 100px 1fr;
     gap: 20px;
+    max-height: 50vh;
     @include cell_phone{
       grid-template-columns: 1fr;
       grid-template-rows: 225px 50px;
@@ -235,6 +236,9 @@
         grid-template-rows: 1fr;
         grid-template-columns: repeat(5, 1fr);
         grid-row: 2;
+      }
+      img{
+        max-height: 100%;
       }
     }
     &__main{
