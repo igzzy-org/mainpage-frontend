@@ -8,8 +8,14 @@ export default function initScrollSuaveLinkInterno() {
   function scrollToDoOnClick(event) {
     event.preventDefault();
     closeMenuMobile();
-    const to = getScrollTopByHref(event.target) - 80;
-    scrollToPosition(to);
+    const href = event.currentTarget.getAttribute('href');
+    const section = document.querySelector(href);
+    // const to = getScrollTopByHref(event.target) - 80;
+    // scrollToPosition(to);
+    section.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start'
+    })
   }
 
   function getScrollTopByHref(element) {
