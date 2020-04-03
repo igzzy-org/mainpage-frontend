@@ -1,4 +1,4 @@
-$main_font: 'News701 BT', sans-serif;
+$main_font: 'Libre Baskerville', sans-serif;
 $second_font: 'Philosopher', cursive;
 
 //HEADER
@@ -6,6 +6,7 @@ $second_font: 'Philosopher', cursive;
   font-family: $main_font;
   font-size: 5rem;
   text-transform: uppercase;
+  font-style: italic;
   @include cell_phone{
     font-size: 2rem;
   }
