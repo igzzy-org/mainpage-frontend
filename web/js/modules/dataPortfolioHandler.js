@@ -76,6 +76,7 @@ export default class dataPortfolioHandler {
         this.sumario.data.nivel_two += 1;
         div.appendChild(this.createSubtitle(subgroup));
         for (const esp in this.data[group][subgroup]) {
+          this.sumario.data.nivel_three += 1;
           if (esp != '') div.appendChild(this.createEsptitle(esp));
           const listObj = this.data[group][subgroup][esp];
           Object.keys(listObj).forEach(item => {
@@ -99,22 +100,22 @@ export default class dataPortfolioHandler {
   }
 
   createSubtitle(subtitle) {
-    const sum = document.createRange().createContextualFragment(`<a href="${'#' + subtitle.replace(/ /g, "") + this.sumario.data.nivel_one}" class="sumario__nivel-2" data-sumario="item">${subtitle}</a>`)
+    const sum = document.createRange().createContextualFragment(`<a href="${'#' + subtitle.replace(/ /g, "") + this.sumario.data.nivel_two}" class="sumario__nivel-2" data-sumario="item">${subtitle}</a>`)
     this.sumario.data.elemens[this.sumario.data.nivel_one].push([sum]);
     const itemSubtitle = document.createRange().createContextualFragment(`
       <header class="main__portfolio__header">
-        <h2 id="${subtitle.replace(/ /g, "") + this.sumario.data.nivel_one}" class="main__portfolio__header__subtitle"> ${subtitle}</h2>
+        <h2 id="${subtitle.replace(/ /g, "") + this.sumario.data.nivel_two}" class="main__portfolio__header__subtitle"> ${subtitle}</h2>
       </header>
     `)
     return itemSubtitle;
   }
 
   createEsptitle(esptitle) {
-    const sum = document.createRange().createContextualFragment(`<a href="${'#' + esptitle.replace(/ /g, "") + this.sumario.data.nivel_two}" class="sumario__nivel-3" data-sumario="item">${esptitle}</a>`)
+    const sum = document.createRange().createContextualFragment(`<a href="${'#' + esptitle.replace(/ /g, "") + this.sumario.data.nivel_three}" class="sumario__nivel-3" data-sumario="item">${esptitle}</a>`)
     this.sumario.data.elemens[this.sumario.data.nivel_one][this.sumario.data.nivel_two].push(sum);
     const itemEsptitle = document.createRange().createContextualFragment(`
       <header class="main__portfolio__header">
-        <h3 id="${esptitle.replace(/ /g, "") + this.sumario.data.nivel_two}" class="main__portfolio__header__esptitle"> ${esptitle}</h3>
+        <h3 id="${esptitle.replace(/ /g, "") + this.sumario.data.nivel_three}" class="main__portfolio__header__esptitle"> ${esptitle}</h3>
       </header>
     `)
     return itemEsptitle;

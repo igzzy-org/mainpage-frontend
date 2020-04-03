@@ -6,6 +6,7 @@ export default class Sumario {
     this.data = {
       nivel_one: -1,
       nivel_two: 0,
+      nivel_three: 0,
       elemens: []
     }
   }
