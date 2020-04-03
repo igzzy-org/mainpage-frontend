@@ -123,7 +123,11 @@ export default class dataPortfolioHandler {
 
   createItem(item) {
     const itemContainer = document.createRange().createContextualFragment(`<section class="main__portfolio__item" data-item="item">
-      <img class="main__portfolio__item__img" src="images/produtos/canecas/${item['Referência'].trim()}/${item['Referência'].trim()}-1x.webp" alt="${item['Item']}">
+      <picture class="main__portfolio__item__img">
+        <source media="(min-width: 780px)" type="image/webp" srcset="images/produtos/canecas/${item['Referência'].trim()}/${item['Referência'].trim()}-2x.webp">
+        <source type="image/webp" srcset="images/produtos/canecas/${item['Referência'].trim()}/${item['Referência'].trim()}-1x.webp">
+        <img src="images/produtos/canecas/${item['Referência'].trim()}/${item['Referência'].trim()}-1x.png" alt="${item["Item"]}">
+      </picture>
       <div class="main__portfolio__item__content" data-item="content">
         <header class="main__portfolio__item__header">
           <h2 class="main__portfolio__item__header__title">${item["Item"]}</h2>
