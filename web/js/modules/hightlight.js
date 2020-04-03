@@ -13,9 +13,10 @@ export default class initHighlight {
 
   createContainer() {
     const div = document.createElement('div');
+    const host = "http://" + window.location.host + "/";
 
     const highlightContent = document.createRange().createContextualFragment(`
-      <div class="portfolio-highlight__container__button" data-highlight="button"><div class="click-close"></div><div class="click-close"></div></div>
+      <div class="portfolio-highlight__container__button click-close" data-highlight="button"><div class="click-close"></div><div class="click-close"></div></div>
       <div class="portfolio-highlight__gallery" data-gallery="gallery">
         <div class="portfolio-highlight__gallery__list">
           <img data-gallery="list" src="images/produtos/canecas/${this.item['Referência'].trim()}/${this.item['Referência'].trim()}-1x.webp" alt="${this.item.Item}">
@@ -25,7 +26,7 @@ export default class initHighlight {
           <img data-gallery="list" src="images/produtos/canecas/${this.item['Referência'].trim()}/${this.item['Referência'].trim()}-1x-4.webp" alt="">
         </div>
         <div class="portfolio-highlight__gallery__main">
-          <img data-gallery="main" src="images/produtos/canecas/${this.item['Referência'].trim()}/${this.item['Referência'].trim()}-1x.webp" alt="">
+          <div data-gallery="main" style="background: url(${host}/web/images/produtos/canecas/${this.item['Referência'].trim()}/${this.item['Referência'].trim()}-1x.webp) center center / contain no-repeat;"></div>
         </div>
       </div>
       <div class="portfolio-highlight__content">
