@@ -50,7 +50,7 @@ $second_font: 'Philosopher', cursive;
 @mixin font_main_text{
   font-family: $second_font;
   font-size: 1.2rem;
-  line-height: 1.7rem;
+  line-height: 2rem;
   font-style: italic;
   @include cell_phone{
     font-size: 1rem;
@@ -151,7 +151,7 @@ $second_font: 'Philosopher', cursive;
   font-style: italic;
   @include cell_phone{
     font-size: 0.8rem;
-    line-height: 1.5rem;
+    line-height: 1.0rem;
   }
 }
 

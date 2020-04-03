@@ -182,7 +182,7 @@
     border: $second_color 5px solid;
     @include cell_phone{
       grid-template-columns: 1fr;
-      grid-template-rows: 1fr 1fr;
+      grid-template-rows: 30vh 40vh;
     }
     &__button{
       position: absolute;
@@ -224,7 +224,7 @@
     gap: 20px;
     @include cell_phone{
       grid-template-columns: 1fr;
-      grid-template-rows: 225px 50px;
+      grid-template-rows: 150px 50px;
       gap: 10px;
     }
     &__list{
@@ -245,8 +245,8 @@
         width: 50vh;
         height: 50vh;
         @include cell_phone{
-          width: 250px;
-          height: 250px;
+          width: 150px;
+          height: 150px;
         }
       }
     }

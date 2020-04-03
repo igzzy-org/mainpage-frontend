@@ -33,7 +33,7 @@ export default class Highlight {
         <header class="portfolio-highlight__content__header">
           <h2 class="portfolio-highlight__content__header__title">${this.item.Item}</h2>
         </header>
-        <p class="portfolio-highlight__content__description">Caneca Comum Branca</p>
+        <p class="portfolio-highlight__content__description">${this.item["Descrição"]}</p>
         <p class="portfolio-highlight__content__price">${this.item['Valor de Venda']}</p>
       </div>`);
 

@@ -132,7 +132,7 @@ export default class dataPortfolioHandler {
         <header class="main__portfolio__item__header">
           <h2 class="main__portfolio__item__header__title">${item["Item"]}</h2>
         </header>
-        <p class="main__portfolio__item__description">Caneca Comum Branca</p>
+        <p class="main__portfolio__item__description">${item["SDescrição"]}</p>
         <div class="main__portfolio__item__last-line">
           <p class="main__portfolio__item__price">${item["Valor de Venda"]}</p>
           <a class="main__portfolio__item__button" data-item-button href="" data-item="button" data-button="${item['Referência'].trim()},${item.Grupo},${item.Subgrupo},${item.Especificidade}">Veja Mais</a>
