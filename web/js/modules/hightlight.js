@@ -1,12 +1,12 @@
 import Gallery from "./gallery.js";
 
-export default class initHighlight {
+export default class Highlight {
   constructor(item) {
     this.main = document.querySelector('[data-highlight="main"]');
     this.container = this.main.querySelector('[data-highlight="container"]');
     this.button = this.main.querySelector('[data-highlight="button"]');
-
     this.item = item;
+    this.imgs = [];
 
     this.handleButton = this.handleButton.bind(this);
   }
@@ -26,7 +26,7 @@ export default class initHighlight {
           <img data-gallery="list" src="images/produtos/canecas/${this.item['Referência'].trim()}/${this.item['Referência'].trim()}-1x-4.webp" alt="">
         </div>
         <div class="portfolio-highlight__gallery__main">
-          <div data-gallery="main" style="background: url(${host}/images/produtos/canecas/${this.item['Referência'].trim()}/${this.item['Referência'].trim()}-1x.webp) center center / contain no-repeat;"></div>
+          <div data-gallery="main" style="background: url(${host}images/produtos/canecas/${this.item['Referência'].trim()}/${this.item['Referência'].trim()}-1x.webp) center center / contain no-repeat;"></div>
         </div>
       </div>
       <div class="portfolio-highlight__content">

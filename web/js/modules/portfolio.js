@@ -2,7 +2,7 @@ import initScrollSuaveLinkInterno from "./scrollSuaveLinkInterno.js";
 import Highlight from "./hightlight.js";
 import loadingAnimation from "./loading_animation";
 import dataPortfolioHandler from "./dataPortfolioHandler.js";
-import addEventListenerToButtons from "./buttons";
+import Buttons from "./buttons";
 
 export default class Portfolio {
   constructor(selector) {
@@ -28,7 +28,8 @@ export default class Portfolio {
     this.dataPortfolio = new dataPortfolioHandler().create(responseInJSON);
     this.main.innerHTML = this.dataPortfolio.dataElements.innerHTML;
     initScrollSuaveLinkInterno();
-    addEventListenerToButtons('[data-item="button"', (button) => {
+    const buttons = new Buttons('[data-item="button"');
+    buttons.addEventListenerToButtons((button) => {
       button.addEventListener('click', this.handleHighlightButton);
     })
   }

@@ -3,6 +3,7 @@ import Portfolio from "./portfolio";
 import ReplaceHTML from "./replaceHTML";
 import loadingAnimation from "./loading_animation";
 import addEventListenerToButtons from "./buttons";
+import Buttons from "./buttons";
 
 export default function initPageSelector() {
   function callingPortfolioHandler() {
@@ -36,7 +37,8 @@ export default function initPageSelector() {
 
   const asideMenu = new AsideMenu();
   asideMenu.init();
-  addEventListenerToButtons('[data-link]', (button) => {
+  const buttons = new Buttons('[data-link]');
+  buttons.addEventListenerToButtons((button) => {
     button.addEventListener('click', handleClick);
   });
   callingPortfolioHandler();
