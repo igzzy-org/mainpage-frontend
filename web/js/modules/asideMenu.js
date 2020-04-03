@@ -74,22 +74,11 @@ export default class AsideMenu {
       this.menuMobile.classList.toggle('active');
       this.menuSandwich.classList.toggle('active');
     });
+  }
 
-    // this.mainMenu.addEventListener('click', event => {
-    //   event.preventDefault();
-    //   this.mainMenu.classList.toggle('active');
-    //   outsideClick(mainMenu, ['click'], () => {
-    //     this.mainMenu.classList.remove('active');
-    //   })
-    // })
-
-    // menuSumario.addEventListener('click', event => {
-    //   event.preventDefault();
-    //   this.menuSumario.classList.toggle('active');
-    //   outsideClick(menuSumario, ['click'], () => {
-    //     this.menuSumario.classList.remove('active');
-    //   })
-    // })
+  closeMenu() {
+    if (this.menuSandwich.classList.contains('active')) this.menuSandwich.classList.remove('active');
+    if (this.menuMobile.classList.contains('active')) this.menuMobile.classList.remove('active');
   }
 
   addEventToExternalLinks() {
@@ -109,6 +98,7 @@ export default class AsideMenu {
     this.aside_config.asideSumarioActive = document.querySelectorAll('[data-sumario="menu"');
     [this.aside_config.asideMobile, this.aside_config.asideSumario, this.aside_config.asideMenu] = aside;
     if (myPage != '') this.aside_config[myPage]();
+    this.closeMenu()
   }
 
   init() {
