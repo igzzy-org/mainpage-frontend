@@ -64,8 +64,8 @@
   }
   &__item{
     display: grid;
-    height: 350px;
-    grid-template-rows: [row1-start] 4fr [row1-end row2-start] 1fr [row2-end];
+    height: 400px;
+    grid-template-rows: [row1-start] 2fr [row1-end row2-start] 1fr [row2-end];
     background: white;
     position: relative;
     padding: 15px;
@@ -119,6 +119,7 @@
       align-items: center;
     }
     &__price{
+      display: none;
       @include font_portfolio_item_price;
     }
     &__button{
@@ -143,16 +144,6 @@
       opacity: 1;
       transition: .3s;
     }
-    // &.active{
-    //   position: relative;
-    //   left: 0;
-    //   width: 1280px;
-    //   flex-direction: row;
-    //   justify-content: space-between;
-    // }
-    // &__content.active{
-    //   width: 100%;
-    // }
   }
 }
 
@@ -236,6 +227,10 @@
         grid-template-columns: repeat(5, 1fr);
         grid-row: 2;
       }
+      img {
+        max-width: 100%;
+        max-height: 100%;
+      }
     }
     &__main{
       align-self: center;
@@ -279,6 +274,7 @@
       padding: 5px;
     }
     &__price{
+      display: none !important;
       flex: 1;
       @include font_portfolio_item_price;
       display: flex;

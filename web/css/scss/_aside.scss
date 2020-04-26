@@ -24,11 +24,12 @@
     margin: 15px;
     &__header__title{
       @include font_aside_title;
+      color: white;
       &:after{
         content: '';
         width: 100%;
-        height: 2px;
-        background: $background_color;
+        height: 1px;
+        background: white;
         display: block;
       }
     }
@@ -37,7 +38,7 @@
     }
     &__item a{
       @include font_aside_text;
-      color: $background_color;
+      color: white;
       padding: 5px 15px;
       font-weight: bold;
       &:before{
