@@ -119,7 +119,6 @@
       align-items: center;
     }
     &__price{
-      display: none;
       @include font_portfolio_item_price;
     }
     &__button{
@@ -274,7 +273,6 @@
       padding: 5px;
     }
     &__price{
-      display: none !important;
       flex: 1;
       @include font_portfolio_item_price;
       display: flex;
